@@ -30,9 +30,10 @@ def plot_graphs(tickers, predictions, thresholds, stock_data, alerts):
         ax.axhline(y=thresholds[ticker], color='green', linestyle='-', label=f'Threshold: ${thresholds[ticker]}')
 
         if ticker in alerts and alerts[ticker]:
-            breached_dates = [future_dates[day - 1].strftime('%d %B, %Y') for day in alerts[ticker]]
-            alert_text = f"Threshold breached on: {', '.join(breached_dates)}"
+            first_breach_date = future_dates[alerts[ticker][0] - 1].strftime('%d %B, %Y')
+            alert_text = f"Threshold first breached on: {first_breach_date}"
             ax.text(0.5, -0.1, alert_text, ha='center', va='top', transform=ax.transAxes, fontsize=12, color='red')
+
 
         ax.set_xlabel('Date')
         ax.set_ylabel('Price')

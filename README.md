@@ -47,3 +47,18 @@ The program will prompt you to input the stock tickers you want to monitor (comm
 Once the program runs, it will display:
 - **Stock graphs:** Historical prices (default period is 5 years), predicted prices (next 10 days), and threshold lines.
 - **Alerts:** If the predicted price breaches the threshold, an alert message will be displayed below the graph.
+
+## Example of Output
+
+For this example, the input stock funds will be: APPL, MSFT.
+Respectively, the input thresholds will be: 235 and 400. 
+
+After running the program, you will see a graph similar to the one below:
+
+![Stock Price Prediction Graph](images/sample_graph.png)
+
+The graph shows the historical prices, predicted prices, and threshold alerts.
+
+Here is a zoomed image of the AAPL's graph:
+
+![Zoomed Graph](images/zoomed_graph.png)
