@@ -4,11 +4,11 @@ This project is a reproducible quant-research pipeline for cross-asset ETF tacti
 
 This project treats ETF allocation as a walk-forward portfolio construction problem rather than a next-price prediction problem. The pipeline emphasizes leakage avoidance, factor-style features, realistic backtesting assumptions, transaction costs, and risk-adjusted evaluation.
 
-## Why this is not a naive price forecaster
+## Research approach
 
-The main workflow does not train an LSTM to predict next prices. Instead, it builds trailing momentum, volatility, trend, and drawdown features, predicts or ranks next 21-trading-day returns, rebalances monthly, and evaluates complete portfolios after turnover and transaction costs.
+The workflow builds trailing momentum, volatility, trend, and drawdown features, then ranks or predicts next 21-trading-day returns across the ETF universe. Portfolios are rebalanced monthly, evaluated after transaction costs, and compared against transparent allocation baselines.
 
-Legacy LSTM price-forecasting code has been moved to `legacy/lstm_price_forecaster/` and is not part of the active research path.
+An archived version of the earlier experimental workflow is kept in `legacy/lstm_price_forecaster/` for reference.
 
 ## Universe
 
