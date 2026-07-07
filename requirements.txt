@@ -3,4 +3,5 @@ pandas
 matplotlib
 yfinance
 scikit-learn
-tensorflow
+pyyaml
+pytest

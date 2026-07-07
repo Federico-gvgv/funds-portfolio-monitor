@@ -1,0 +1,30 @@
+data:
+  tickers:
+    - SPY
+    - QQQ
+    - IWM
+    - EFA
+    - EEM
+    - TLT
+    - GLD
+  start_date: "2010-01-01"
+  end_date: null
+  price_column: "Adj Close"
+
+features:
+  momentum_windows: [21, 63, 126, 252]
+  volatility_windows: [20, 60]
+  trend_windows: [50, 200]
+  forward_return_horizon: 21
+
+backtest:
+  rebalance_frequency: "M"
+  top_k: 3
+  transaction_cost_bps: 10
+  initial_capital: 1.0
+  train_start: "2010-01-01"
+  test_start: "2016-01-01"
+  min_train_months: 36
+
+models:
+  random_seed: 42
