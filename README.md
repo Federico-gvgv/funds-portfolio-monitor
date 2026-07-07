@@ -1,100 +1,102 @@
-# Funds Portfolio Monitor
+# Cross-Asset ETF Tactical Allocation Backtester
 
-This project provides a tool to monitor stock portfolios, predict future stock prices using LSTM (Long Short-Term Memory) models, and send alerts if the predicted prices breach a user-defined threshold. In addition, the project converts LSTM forecasts into a simple long/flat trading strategy and evaluates it against a buy-and-hold benchmark using standard quantitative performance metrics.
+This project is a reproducible quant-research pipeline for cross-asset ETF tactical allocation. It compares simple baselines, factor-style ranking rules, and lightweight supervised ML models under chronological walk-forward validation.
 
-## Features
-- Fetches historical stock data from Yahoo Finance using `yfinance`.
-- Trains an LSTM model to predict future stock prices.
-- Allows users to set thresholds for price predictions.
-- Provides alert notifications for when the threshold is breached.
-- Visualizes historical data, predictions, and alerts with interactive plots.
-- Backtests an LSTM-based trading strategy on a held-out test set and compares it to a buy-and-hold baseline using:
-  - Mean Squared Error (MSE) and Mean Absolute Error (MAE)
-  - Directional accuracy (hit rate)
-  - Cumulative return
-  - Sharpe ratio
-  - Maximum drawdown
+This project treats ETF allocation as a walk-forward portfolio construction problem rather than a next-price prediction problem. The pipeline emphasizes leakage avoidance, factor-style features, realistic backtesting assumptions, transaction costs, and risk-adjusted evaluation.
 
-## Installation
+## Why this is not a naive price forecaster
 
-### 1. Clone the Repository
+The main workflow does not train an LSTM to predict next prices. Instead, it builds trailing momentum, volatility, trend, and drawdown features, predicts or ranks next 21-trading-day returns, rebalances monthly, and evaluates complete portfolios after turnover and transaction costs.
+
+Legacy LSTM price-forecasting code has been moved to `legacy/lstm_price_forecaster/` and is not part of the active research path.
+
+## Universe
+
+The default ETF universe is:
+
+- `SPY`
+- `QQQ`
+- `IWM`
+- `EFA`
+- `EEM`
+- `TLT`
+- `GLD`
+
+Optional single-name equities such as `AAPL` and `MSFT` can be added through `configs/backtest.yaml`, but the main backtest is designed around ETFs.
+
+## Methodology
+
+1. Load adjusted close prices from `data/raw/prices.csv`, existing local ticker CSVs, or `yfinance`.
+2. Compute daily returns and leakage-safe trailing features.
+3. Build a next 21-trading-day forward-return target for model training.
+4. Rebalance monthly after a minimum training history.
+5. Train supervised models only on rows before each rebalance date.
+6. Select long-only top-k portfolios and apply weights to the next holding period.
+7. Subtract transaction costs as basis points times one-way turnover.
+8. Evaluate portfolio-level risk and return metrics.
+
+## Strategies
+
+- `SPY Buy & Hold`
+- `Equal Weight Universe`
+- `Top-k Momentum`
+- `Top-k Vol-Adjusted Momentum`
+- `Ridge Predicted Return`
+- `Gradient Boosting Predicted Return`
+
+## Metrics
+
+The report includes cumulative return, CAGR, annualized volatility, Sharpe ratio, Sortino ratio, maximum drawdown, Calmar ratio, hit rate, average turnover, and final equity.
+
+## Setup
+
 ```bash
-git clone https://github.com/your-username/funds-portfolio-monitor.git
-cd funds-portfolio-monitor
+python -m venv .venv
+source .venv/bin/activate
+pip install -e ".[dev]"
 ```
 
-### 2. Install Dependencies
+You can also install from `requirements.txt`:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-Main dependencies include:
-- numpy
-- pandas
-- matplotlib
-- yfinance
-- scikit-learn
-- tensorflow
+## How to run
 
-## Usage
-
-### 1. Run the Program
 ```bash
-python main.py
+python scripts/run_backtest.py --config configs/backtest.yaml
+python scripts/generate_report.py
+pytest
 ```
 
-### 2. Input Stock Tickers and Thresholds
-The program will prompt you to input the stock tickers you want to monitor (comma-separated).  
-You will also be asked to define a threshold price for each ticker.  
-These thresholds are used only for alerting and visualisation.
+The backtest first looks for `data/raw/prices.csv`. If it is missing, it can assemble prices from legacy per-ticker CSV files in `data/`; if those are missing, it downloads adjusted close data with `yfinance`.
 
-### 3. View Results
-Once the program finishes running, you will see:
+## Example output files
 
-- Stock graphs showing historical prices, 10-day LSTM predictions, and threshold lines.
-- Alert messages if predicted prices breach user-defined thresholds.
-- A terminal table summarising the backtest performance of the LSTM-based strategy versus buy-and-hold.
+- `reports/metrics/backtest_metrics.csv`
+- `reports/metrics/equity_curves.csv`
+- `reports/metrics/portfolio_weights.csv`
+- `reports/figures/equity_curve.png`
+- `reports/figures/drawdown.png`
+- `reports/figures/rolling_sharpe.png`
+- `reports/figures/allocation_heatmap.png`
+- `reports/final_report.md`
 
-## LSTM Trading Strategy & Backtesting
+## Limitations
 
-For each ticker, the following procedure is applied:
+- ETF-only universe by default.
+- No slippage or market impact beyond a simple transaction cost.
+- No borrow, leverage, or shorting.
+- No macroeconomic or fundamental features.
+- Historical backtests are not proof of future performance.
+- `yfinance` data may differ from institutional-quality sources.
+- Monthly rebalancing and close-to-close execution assumptions are simplified.
 
-1. Train an LSTM model on approximately five years of daily closing prices.
-2. Generate one-day-ahead price forecasts on a held-out test set.
-3. Convert price forecasts into predicted next-day returns.
-4. Apply a simple long/flat trading rule (θ = 0.0):
-   - Go long if predicted return > 0
-   - Stay in cash otherwise
-5. Compute daily portfolio returns and compare them to a buy-and-hold strategy on the same asset.
+## Future work
 
-An example terminal output:
-
-```text
-Backtest summary (test set):
-Ticker   MSE   MAE  Hit Rate  LSTM_CumRet  LSTM_Sharpe  LSTM_MaxDD  BH_CumRet  BH_Sharpe  BH_MaxDD
-SPY   180.874 10.250   0.554        0.203        1.128      -0.168       0.184       0.991      -0.188
-...
-```
-
-### Saving Backtest Metrics to CSV
-
-Backtest metrics can also be saved to disk for later analysis.  
-When enabled, the program writes a `backtest_results.csv` file to the project root:
-
-```python
-df_results.to_csv("backtest_results.csv", index=False)
-```
-
-## Example Output
-
-Example inputs:
-- Tickers: AAPL, MSFT
-- Thresholds: 235, 400
-
-The program produces stock price prediction graphs with thresholds and alert markers.
-
-![Stock Price Prediction Graph](analysis/sample_graph.png)
-
-Zoomed view for AAPL:
-
-![Zoomed Graph](analysis/zoomed_graph.png)
+- Add volatility targeting and portfolio-level risk constraints.
+- Compare expanding-window and rolling-window training regimes.
+- Add slippage and execution timing sensitivity analysis.
+- Add macro, rates, valuation, or carry features.
+- Add richer reporting for regime-specific performance.
