@@ -1,18 +1,86 @@
 strategy,date,ticker,weight
-SPY Buy & Hold,2023-12-07,SPY,1.0
-SPY Buy & Hold,2023-12-07,QQQ,0.0
-SPY Buy & Hold,2023-12-07,IWM,0.0
-SPY Buy & Hold,2023-12-07,EFA,0.0
-SPY Buy & Hold,2023-12-07,EEM,0.0
-SPY Buy & Hold,2023-12-07,TLT,0.0
-SPY Buy & Hold,2023-12-07,GLD,0.0
-Equal Weight Universe,2023-12-07,SPY,0.14285714285714285
-Equal Weight Universe,2023-12-07,QQQ,0.14285714285714285
-Equal Weight Universe,2023-12-07,IWM,0.14285714285714285
-Equal Weight Universe,2023-12-07,EFA,0.14285714285714285
-Equal Weight Universe,2023-12-07,EEM,0.14285714285714285
-Equal Weight Universe,2023-12-07,TLT,0.14285714285714285
-Equal Weight Universe,2023-12-07,GLD,0.14285714285714285
+SPY Buy & Hold,2016-01-04,SPY,1.0
+SPY Buy & Hold,2016-01-04,QQQ,0.0
+SPY Buy & Hold,2016-01-04,IWM,0.0
+SPY Buy & Hold,2016-01-04,EFA,0.0
+SPY Buy & Hold,2016-01-04,EEM,0.0
+SPY Buy & Hold,2016-01-04,TLT,0.0
+SPY Buy & Hold,2016-01-04,GLD,0.0
+Equal Weight Universe,2016-01-04,SPY,0.14285714285714285
+Equal Weight Universe,2016-01-04,QQQ,0.14285714285714285
+Equal Weight Universe,2016-01-04,IWM,0.14285714285714285
+Equal Weight Universe,2016-01-04,EFA,0.14285714285714285
+Equal Weight Universe,2016-01-04,EEM,0.14285714285714285
+Equal Weight Universe,2016-01-04,TLT,0.14285714285714285
+Equal Weight Universe,2016-01-04,GLD,0.14285714285714285
+Top-k Momentum,2016-02-29,SPY,0.3333333333333333
+Top-k Momentum,2016-03-31,SPY,0.3333333333333333
+Top-k Momentum,2016-05-31,SPY,0.3333333333333333
+Top-k Momentum,2016-06-30,SPY,0.3333333333333333
+Top-k Momentum,2016-08-31,SPY,0.0
+Top-k Momentum,2016-09-30,SPY,0.0
+Top-k Momentum,2016-10-31,SPY,0.0
+Top-k Momentum,2016-11-30,SPY,0.3333333333333333
+Top-k Momentum,2017-01-31,SPY,0.3333333333333333
+Top-k Momentum,2017-02-28,SPY,0.3333333333333333
+Top-k Momentum,2017-03-31,SPY,0.0
+Top-k Momentum,2017-05-31,SPY,0.0
+Top-k Momentum,2017-06-30,SPY,0.0
+Top-k Momentum,2017-07-31,SPY,0.0
+Top-k Momentum,2017-08-31,SPY,0.0
+Top-k Momentum,2017-10-31,SPY,0.0
+Top-k Momentum,2017-11-30,SPY,0.3333333333333333
+Top-k Momentum,2018-01-31,SPY,0.3333333333333333
+Top-k Momentum,2018-02-28,SPY,0.3333333333333333
+Top-k Momentum,2018-04-30,SPY,0.0
+Top-k Momentum,2018-05-31,SPY,0.3333333333333333
+Top-k Momentum,2018-07-31,SPY,0.3333333333333333
+Top-k Momentum,2018-08-31,SPY,0.3333333333333333
+Top-k Momentum,2018-10-31,SPY,0.3333333333333333
+Top-k Momentum,2018-11-30,SPY,0.3333333333333333
+Top-k Momentum,2018-12-31,SPY,0.3333333333333333
+Top-k Momentum,2019-01-31,SPY,0.0
+Top-k Momentum,2019-02-28,SPY,0.3333333333333333
+Top-k Momentum,2019-04-30,SPY,0.3333333333333333
+Top-k Momentum,2019-05-31,SPY,0.0
+Top-k Momentum,2019-07-31,SPY,0.0
+Top-k Momentum,2019-09-30,SPY,0.3333333333333333
+Top-k Momentum,2019-10-31,SPY,0.0
+Top-k Momentum,2019-12-31,SPY,0.3333333333333333
+Top-k Momentum,2020-01-31,SPY,0.3333333333333333
+Top-k Momentum,2020-03-31,SPY,0.0
+Top-k Momentum,2020-04-30,SPY,0.0
+Top-k Momentum,2020-06-30,SPY,0.0
+Top-k Momentum,2020-07-31,SPY,0.0
+Top-k Momentum,2020-08-31,SPY,0.3333333333333333
+Top-k Momentum,2020-09-30,SPY,0.3333333333333333
+Top-k Momentum,2020-11-30,SPY,0.0
+Top-k Momentum,2020-12-31,SPY,0.0
+Top-k Momentum,2021-03-31,SPY,0.0
+Top-k Momentum,2021-04-30,SPY,0.3333333333333333
+Top-k Momentum,2021-06-30,SPY,0.3333333333333333
+Top-k Momentum,2021-08-31,SPY,0.3333333333333333
+Top-k Momentum,2021-09-30,SPY,0.3333333333333333
+Top-k Momentum,2021-11-30,SPY,0.3333333333333333
+Top-k Momentum,2021-12-31,SPY,0.3333333333333333
+Top-k Momentum,2022-01-31,SPY,0.3333333333333333
+Top-k Momentum,2022-02-28,SPY,0.3333333333333333
+Top-k Momentum,2022-03-31,SPY,0.3333333333333333
+Top-k Momentum,2022-05-31,SPY,0.3333333333333333
+Top-k Momentum,2022-06-30,SPY,0.3333333333333333
+Top-k Momentum,2022-08-31,SPY,0.3333333333333333
+Top-k Momentum,2022-09-30,SPY,0.3333333333333333
+Top-k Momentum,2022-10-31,SPY,0.3333333333333333
+Top-k Momentum,2022-11-30,SPY,0.3333333333333333
+Top-k Momentum,2023-01-31,SPY,0.0
+Top-k Momentum,2023-02-28,SPY,0.0
+Top-k Momentum,2023-03-31,SPY,0.0
+Top-k Momentum,2023-05-31,SPY,0.3333333333333333
+Top-k Momentum,2023-06-30,SPY,0.3333333333333333
+Top-k Momentum,2023-07-31,SPY,0.3333333333333333
+Top-k Momentum,2023-08-31,SPY,0.3333333333333333
+Top-k Momentum,2023-10-31,SPY,0.3333333333333333
+Top-k Momentum,2023-11-30,SPY,0.3333333333333333
 Top-k Momentum,2024-01-31,SPY,0.3333333333333333
 Top-k Momentum,2024-02-29,SPY,0.3333333333333333
 Top-k Momentum,2024-04-30,SPY,0.3333333333333333
@@ -29,6 +97,77 @@ Top-k Momentum,2025-06-30,SPY,0.0
 Top-k Momentum,2025-07-31,SPY,0.0
 Top-k Momentum,2025-09-30,SPY,0.0
 Top-k Momentum,2025-10-31,SPY,0.0
+Top-k Momentum,2025-12-31,SPY,0.0
+Top-k Momentum,2026-03-31,SPY,0.0
+Top-k Momentum,2026-04-30,SPY,0.0
+Top-k Momentum,2016-02-29,QQQ,0.0
+Top-k Momentum,2016-03-31,QQQ,0.0
+Top-k Momentum,2016-05-31,QQQ,0.0
+Top-k Momentum,2016-06-30,QQQ,0.0
+Top-k Momentum,2016-08-31,QQQ,0.0
+Top-k Momentum,2016-09-30,QQQ,0.3333333333333333
+Top-k Momentum,2016-10-31,QQQ,0.3333333333333333
+Top-k Momentum,2016-11-30,QQQ,0.3333333333333333
+Top-k Momentum,2017-01-31,QQQ,0.3333333333333333
+Top-k Momentum,2017-02-28,QQQ,0.3333333333333333
+Top-k Momentum,2017-03-31,QQQ,0.3333333333333333
+Top-k Momentum,2017-05-31,QQQ,0.3333333333333333
+Top-k Momentum,2017-06-30,QQQ,0.3333333333333333
+Top-k Momentum,2017-07-31,QQQ,0.3333333333333333
+Top-k Momentum,2017-08-31,QQQ,0.3333333333333333
+Top-k Momentum,2017-10-31,QQQ,0.3333333333333333
+Top-k Momentum,2017-11-30,QQQ,0.3333333333333333
+Top-k Momentum,2018-01-31,QQQ,0.3333333333333333
+Top-k Momentum,2018-02-28,QQQ,0.3333333333333333
+Top-k Momentum,2018-04-30,QQQ,0.3333333333333333
+Top-k Momentum,2018-05-31,QQQ,0.3333333333333333
+Top-k Momentum,2018-07-31,QQQ,0.3333333333333333
+Top-k Momentum,2018-08-31,QQQ,0.3333333333333333
+Top-k Momentum,2018-10-31,QQQ,0.3333333333333333
+Top-k Momentum,2018-11-30,QQQ,0.3333333333333333
+Top-k Momentum,2018-12-31,QQQ,0.0
+Top-k Momentum,2019-01-31,QQQ,0.0
+Top-k Momentum,2019-02-28,QQQ,0.0
+Top-k Momentum,2019-04-30,QQQ,0.3333333333333333
+Top-k Momentum,2019-05-31,QQQ,0.3333333333333333
+Top-k Momentum,2019-07-31,QQQ,0.3333333333333333
+Top-k Momentum,2019-09-30,QQQ,0.0
+Top-k Momentum,2019-10-31,QQQ,0.3333333333333333
+Top-k Momentum,2019-12-31,QQQ,0.3333333333333333
+Top-k Momentum,2020-01-31,QQQ,0.3333333333333333
+Top-k Momentum,2020-03-31,QQQ,0.3333333333333333
+Top-k Momentum,2020-04-30,QQQ,0.3333333333333333
+Top-k Momentum,2020-06-30,QQQ,0.3333333333333333
+Top-k Momentum,2020-07-31,QQQ,0.3333333333333333
+Top-k Momentum,2020-08-31,QQQ,0.3333333333333333
+Top-k Momentum,2020-09-30,QQQ,0.3333333333333333
+Top-k Momentum,2020-11-30,QQQ,0.3333333333333333
+Top-k Momentum,2020-12-31,QQQ,0.3333333333333333
+Top-k Momentum,2021-03-31,QQQ,0.3333333333333333
+Top-k Momentum,2021-04-30,QQQ,0.3333333333333333
+Top-k Momentum,2021-06-30,QQQ,0.3333333333333333
+Top-k Momentum,2021-08-31,QQQ,0.3333333333333333
+Top-k Momentum,2021-09-30,QQQ,0.3333333333333333
+Top-k Momentum,2021-11-30,QQQ,0.3333333333333333
+Top-k Momentum,2021-12-31,QQQ,0.3333333333333333
+Top-k Momentum,2022-01-31,QQQ,0.3333333333333333
+Top-k Momentum,2022-02-28,QQQ,0.0
+Top-k Momentum,2022-03-31,QQQ,0.3333333333333333
+Top-k Momentum,2022-05-31,QQQ,0.0
+Top-k Momentum,2022-06-30,QQQ,0.0
+Top-k Momentum,2022-08-31,QQQ,0.0
+Top-k Momentum,2022-09-30,QQQ,0.0
+Top-k Momentum,2022-10-31,QQQ,0.0
+Top-k Momentum,2022-11-30,QQQ,0.0
+Top-k Momentum,2023-01-31,QQQ,0.0
+Top-k Momentum,2023-02-28,QQQ,0.0
+Top-k Momentum,2023-03-31,QQQ,0.3333333333333333
+Top-k Momentum,2023-05-31,QQQ,0.3333333333333333
+Top-k Momentum,2023-06-30,QQQ,0.3333333333333333
+Top-k Momentum,2023-07-31,QQQ,0.3333333333333333
+Top-k Momentum,2023-08-31,QQQ,0.3333333333333333
+Top-k Momentum,2023-10-31,QQQ,0.3333333333333333
+Top-k Momentum,2023-11-30,QQQ,0.3333333333333333
 Top-k Momentum,2024-01-31,QQQ,0.3333333333333333
 Top-k Momentum,2024-02-29,QQQ,0.3333333333333333
 Top-k Momentum,2024-04-30,QQQ,0.3333333333333333
@@ -45,6 +184,77 @@ Top-k Momentum,2025-06-30,QQQ,0.0
 Top-k Momentum,2025-07-31,QQQ,0.3333333333333333
 Top-k Momentum,2025-09-30,QQQ,0.3333333333333333
 Top-k Momentum,2025-10-31,QQQ,0.3333333333333333
+Top-k Momentum,2025-12-31,QQQ,0.0
+Top-k Momentum,2026-03-31,QQQ,0.0
+Top-k Momentum,2026-04-30,QQQ,0.3333333333333333
+Top-k Momentum,2016-02-29,IWM,0.0
+Top-k Momentum,2016-03-31,IWM,0.0
+Top-k Momentum,2016-05-31,IWM,0.0
+Top-k Momentum,2016-06-30,IWM,0.0
+Top-k Momentum,2016-08-31,IWM,0.3333333333333333
+Top-k Momentum,2016-09-30,IWM,0.3333333333333333
+Top-k Momentum,2016-10-31,IWM,0.3333333333333333
+Top-k Momentum,2016-11-30,IWM,0.3333333333333333
+Top-k Momentum,2017-01-31,IWM,0.3333333333333333
+Top-k Momentum,2017-02-28,IWM,0.3333333333333333
+Top-k Momentum,2017-03-31,IWM,0.3333333333333333
+Top-k Momentum,2017-05-31,IWM,0.0
+Top-k Momentum,2017-06-30,IWM,0.0
+Top-k Momentum,2017-07-31,IWM,0.0
+Top-k Momentum,2017-08-31,IWM,0.0
+Top-k Momentum,2017-10-31,IWM,0.3333333333333333
+Top-k Momentum,2017-11-30,IWM,0.0
+Top-k Momentum,2018-01-31,IWM,0.0
+Top-k Momentum,2018-02-28,IWM,0.0
+Top-k Momentum,2018-04-30,IWM,0.0
+Top-k Momentum,2018-05-31,IWM,0.3333333333333333
+Top-k Momentum,2018-07-31,IWM,0.3333333333333333
+Top-k Momentum,2018-08-31,IWM,0.3333333333333333
+Top-k Momentum,2018-10-31,IWM,0.3333333333333333
+Top-k Momentum,2018-11-30,IWM,0.0
+Top-k Momentum,2018-12-31,IWM,0.0
+Top-k Momentum,2019-01-31,IWM,0.0
+Top-k Momentum,2019-02-28,IWM,0.0
+Top-k Momentum,2019-04-30,IWM,0.0
+Top-k Momentum,2019-05-31,IWM,0.0
+Top-k Momentum,2019-07-31,IWM,0.0
+Top-k Momentum,2019-09-30,IWM,0.0
+Top-k Momentum,2019-10-31,IWM,0.0
+Top-k Momentum,2019-12-31,IWM,0.3333333333333333
+Top-k Momentum,2020-01-31,IWM,0.0
+Top-k Momentum,2020-03-31,IWM,0.0
+Top-k Momentum,2020-04-30,IWM,0.0
+Top-k Momentum,2020-06-30,IWM,0.0
+Top-k Momentum,2020-07-31,IWM,0.0
+Top-k Momentum,2020-08-31,IWM,0.0
+Top-k Momentum,2020-09-30,IWM,0.0
+Top-k Momentum,2020-11-30,IWM,0.3333333333333333
+Top-k Momentum,2020-12-31,IWM,0.3333333333333333
+Top-k Momentum,2021-03-31,IWM,0.3333333333333333
+Top-k Momentum,2021-04-30,IWM,0.3333333333333333
+Top-k Momentum,2021-06-30,IWM,0.3333333333333333
+Top-k Momentum,2021-08-31,IWM,0.3333333333333333
+Top-k Momentum,2021-09-30,IWM,0.3333333333333333
+Top-k Momentum,2021-11-30,IWM,0.3333333333333333
+Top-k Momentum,2021-12-31,IWM,0.0
+Top-k Momentum,2022-01-31,IWM,0.0
+Top-k Momentum,2022-02-28,IWM,0.0
+Top-k Momentum,2022-03-31,IWM,0.0
+Top-k Momentum,2022-05-31,IWM,0.0
+Top-k Momentum,2022-06-30,IWM,0.0
+Top-k Momentum,2022-08-31,IWM,0.3333333333333333
+Top-k Momentum,2022-09-30,IWM,0.3333333333333333
+Top-k Momentum,2022-10-31,IWM,0.3333333333333333
+Top-k Momentum,2022-11-30,IWM,0.0
+Top-k Momentum,2023-01-31,IWM,0.0
+Top-k Momentum,2023-02-28,IWM,0.3333333333333333
+Top-k Momentum,2023-03-31,IWM,0.0
+Top-k Momentum,2023-05-31,IWM,0.0
+Top-k Momentum,2023-06-30,IWM,0.0
+Top-k Momentum,2023-07-31,IWM,0.3333333333333333
+Top-k Momentum,2023-08-31,IWM,0.0
+Top-k Momentum,2023-10-31,IWM,0.0
+Top-k Momentum,2023-11-30,IWM,0.0
 Top-k Momentum,2024-01-31,IWM,0.0
 Top-k Momentum,2024-02-29,IWM,0.3333333333333333
 Top-k Momentum,2024-04-30,IWM,0.0
@@ -61,6 +271,77 @@ Top-k Momentum,2025-06-30,IWM,0.0
 Top-k Momentum,2025-07-31,IWM,0.0
 Top-k Momentum,2025-09-30,IWM,0.0
 Top-k Momentum,2025-10-31,IWM,0.0
+Top-k Momentum,2025-12-31,IWM,0.0
+Top-k Momentum,2026-03-31,IWM,0.0
+Top-k Momentum,2026-04-30,IWM,0.3333333333333333
+Top-k Momentum,2016-02-29,EFA,0.0
+Top-k Momentum,2016-03-31,EFA,0.0
+Top-k Momentum,2016-05-31,EFA,0.0
+Top-k Momentum,2016-06-30,EFA,0.0
+Top-k Momentum,2016-08-31,EFA,0.0
+Top-k Momentum,2016-09-30,EFA,0.0
+Top-k Momentum,2016-10-31,EFA,0.0
+Top-k Momentum,2016-11-30,EFA,0.0
+Top-k Momentum,2017-01-31,EFA,0.0
+Top-k Momentum,2017-02-28,EFA,0.0
+Top-k Momentum,2017-03-31,EFA,0.0
+Top-k Momentum,2017-05-31,EFA,0.3333333333333333
+Top-k Momentum,2017-06-30,EFA,0.3333333333333333
+Top-k Momentum,2017-07-31,EFA,0.3333333333333333
+Top-k Momentum,2017-08-31,EFA,0.3333333333333333
+Top-k Momentum,2017-10-31,EFA,0.0
+Top-k Momentum,2017-11-30,EFA,0.0
+Top-k Momentum,2018-01-31,EFA,0.0
+Top-k Momentum,2018-02-28,EFA,0.0
+Top-k Momentum,2018-04-30,EFA,0.3333333333333333
+Top-k Momentum,2018-05-31,EFA,0.0
+Top-k Momentum,2018-07-31,EFA,0.0
+Top-k Momentum,2018-08-31,EFA,0.0
+Top-k Momentum,2018-10-31,EFA,0.0
+Top-k Momentum,2018-11-30,EFA,0.0
+Top-k Momentum,2018-12-31,EFA,0.0
+Top-k Momentum,2019-01-31,EFA,0.0
+Top-k Momentum,2019-02-28,EFA,0.0
+Top-k Momentum,2019-04-30,EFA,0.0
+Top-k Momentum,2019-05-31,EFA,0.0
+Top-k Momentum,2019-07-31,EFA,0.0
+Top-k Momentum,2019-09-30,EFA,0.0
+Top-k Momentum,2019-10-31,EFA,0.0
+Top-k Momentum,2019-12-31,EFA,0.0
+Top-k Momentum,2020-01-31,EFA,0.0
+Top-k Momentum,2020-03-31,EFA,0.0
+Top-k Momentum,2020-04-30,EFA,0.0
+Top-k Momentum,2020-06-30,EFA,0.0
+Top-k Momentum,2020-07-31,EFA,0.0
+Top-k Momentum,2020-08-31,EFA,0.0
+Top-k Momentum,2020-09-30,EFA,0.0
+Top-k Momentum,2020-11-30,EFA,0.0
+Top-k Momentum,2020-12-31,EFA,0.0
+Top-k Momentum,2021-03-31,EFA,0.0
+Top-k Momentum,2021-04-30,EFA,0.0
+Top-k Momentum,2021-06-30,EFA,0.0
+Top-k Momentum,2021-08-31,EFA,0.0
+Top-k Momentum,2021-09-30,EFA,0.0
+Top-k Momentum,2021-11-30,EFA,0.0
+Top-k Momentum,2021-12-31,EFA,0.3333333333333333
+Top-k Momentum,2022-01-31,EFA,0.3333333333333333
+Top-k Momentum,2022-02-28,EFA,0.3333333333333333
+Top-k Momentum,2022-03-31,EFA,0.0
+Top-k Momentum,2022-05-31,EFA,0.3333333333333333
+Top-k Momentum,2022-06-30,EFA,0.3333333333333333
+Top-k Momentum,2022-08-31,EFA,0.0
+Top-k Momentum,2022-09-30,EFA,0.0
+Top-k Momentum,2022-10-31,EFA,0.0
+Top-k Momentum,2022-11-30,EFA,0.3333333333333333
+Top-k Momentum,2023-01-31,EFA,0.3333333333333333
+Top-k Momentum,2023-02-28,EFA,0.3333333333333333
+Top-k Momentum,2023-03-31,EFA,0.3333333333333333
+Top-k Momentum,2023-05-31,EFA,0.0
+Top-k Momentum,2023-06-30,EFA,0.3333333333333333
+Top-k Momentum,2023-07-31,EFA,0.0
+Top-k Momentum,2023-08-31,EFA,0.3333333333333333
+Top-k Momentum,2023-10-31,EFA,0.0
+Top-k Momentum,2023-11-30,EFA,0.0
 Top-k Momentum,2024-01-31,EFA,0.3333333333333333
 Top-k Momentum,2024-02-29,EFA,0.0
 Top-k Momentum,2024-04-30,EFA,0.0
@@ -77,6 +358,77 @@ Top-k Momentum,2025-06-30,EFA,0.3333333333333333
 Top-k Momentum,2025-07-31,EFA,0.0
 Top-k Momentum,2025-09-30,EFA,0.0
 Top-k Momentum,2025-10-31,EFA,0.0
+Top-k Momentum,2025-12-31,EFA,0.3333333333333333
+Top-k Momentum,2026-03-31,EFA,0.3333333333333333
+Top-k Momentum,2026-04-30,EFA,0.0
+Top-k Momentum,2016-02-29,EEM,0.0
+Top-k Momentum,2016-03-31,EEM,0.0
+Top-k Momentum,2016-05-31,EEM,0.0
+Top-k Momentum,2016-06-30,EEM,0.0
+Top-k Momentum,2016-08-31,EEM,0.3333333333333333
+Top-k Momentum,2016-09-30,EEM,0.3333333333333333
+Top-k Momentum,2016-10-31,EEM,0.3333333333333333
+Top-k Momentum,2016-11-30,EEM,0.0
+Top-k Momentum,2017-01-31,EEM,0.0
+Top-k Momentum,2017-02-28,EEM,0.0
+Top-k Momentum,2017-03-31,EEM,0.3333333333333333
+Top-k Momentum,2017-05-31,EEM,0.3333333333333333
+Top-k Momentum,2017-06-30,EEM,0.3333333333333333
+Top-k Momentum,2017-07-31,EEM,0.3333333333333333
+Top-k Momentum,2017-08-31,EEM,0.3333333333333333
+Top-k Momentum,2017-10-31,EEM,0.3333333333333333
+Top-k Momentum,2017-11-30,EEM,0.3333333333333333
+Top-k Momentum,2018-01-31,EEM,0.3333333333333333
+Top-k Momentum,2018-02-28,EEM,0.3333333333333333
+Top-k Momentum,2018-04-30,EEM,0.3333333333333333
+Top-k Momentum,2018-05-31,EEM,0.0
+Top-k Momentum,2018-07-31,EEM,0.0
+Top-k Momentum,2018-08-31,EEM,0.0
+Top-k Momentum,2018-10-31,EEM,0.0
+Top-k Momentum,2018-11-30,EEM,0.0
+Top-k Momentum,2018-12-31,EEM,0.0
+Top-k Momentum,2019-01-31,EEM,0.3333333333333333
+Top-k Momentum,2019-02-28,EEM,0.0
+Top-k Momentum,2019-04-30,EEM,0.0
+Top-k Momentum,2019-05-31,EEM,0.0
+Top-k Momentum,2019-07-31,EEM,0.0
+Top-k Momentum,2019-09-30,EEM,0.0
+Top-k Momentum,2019-10-31,EEM,0.0
+Top-k Momentum,2019-12-31,EEM,0.0
+Top-k Momentum,2020-01-31,EEM,0.0
+Top-k Momentum,2020-03-31,EEM,0.0
+Top-k Momentum,2020-04-30,EEM,0.0
+Top-k Momentum,2020-06-30,EEM,0.0
+Top-k Momentum,2020-07-31,EEM,0.0
+Top-k Momentum,2020-08-31,EEM,0.0
+Top-k Momentum,2020-09-30,EEM,0.3333333333333333
+Top-k Momentum,2020-11-30,EEM,0.3333333333333333
+Top-k Momentum,2020-12-31,EEM,0.3333333333333333
+Top-k Momentum,2021-03-31,EEM,0.3333333333333333
+Top-k Momentum,2021-04-30,EEM,0.0
+Top-k Momentum,2021-06-30,EEM,0.0
+Top-k Momentum,2021-08-31,EEM,0.0
+Top-k Momentum,2021-09-30,EEM,0.0
+Top-k Momentum,2021-11-30,EEM,0.0
+Top-k Momentum,2021-12-31,EEM,0.0
+Top-k Momentum,2022-01-31,EEM,0.0
+Top-k Momentum,2022-02-28,EEM,0.0
+Top-k Momentum,2022-03-31,EEM,0.0
+Top-k Momentum,2022-05-31,EEM,0.0
+Top-k Momentum,2022-06-30,EEM,0.0
+Top-k Momentum,2022-08-31,EEM,0.0
+Top-k Momentum,2022-09-30,EEM,0.0
+Top-k Momentum,2022-10-31,EEM,0.0
+Top-k Momentum,2022-11-30,EEM,0.0
+Top-k Momentum,2023-01-31,EEM,0.3333333333333333
+Top-k Momentum,2023-02-28,EEM,0.0
+Top-k Momentum,2023-03-31,EEM,0.0
+Top-k Momentum,2023-05-31,EEM,0.0
+Top-k Momentum,2023-06-30,EEM,0.0
+Top-k Momentum,2023-07-31,EEM,0.0
+Top-k Momentum,2023-08-31,EEM,0.0
+Top-k Momentum,2023-10-31,EEM,0.0
+Top-k Momentum,2023-11-30,EEM,0.0
 Top-k Momentum,2024-01-31,EEM,0.0
 Top-k Momentum,2024-02-29,EEM,0.0
 Top-k Momentum,2024-04-30,EEM,0.0
@@ -93,6 +445,77 @@ Top-k Momentum,2025-06-30,EEM,0.3333333333333333
 Top-k Momentum,2025-07-31,EEM,0.3333333333333333
 Top-k Momentum,2025-09-30,EEM,0.3333333333333333
 Top-k Momentum,2025-10-31,EEM,0.3333333333333333
+Top-k Momentum,2025-12-31,EEM,0.3333333333333333
+Top-k Momentum,2026-03-31,EEM,0.3333333333333333
+Top-k Momentum,2026-04-30,EEM,0.3333333333333333
+Top-k Momentum,2016-02-29,TLT,0.3333333333333333
+Top-k Momentum,2016-03-31,TLT,0.3333333333333333
+Top-k Momentum,2016-05-31,TLT,0.3333333333333333
+Top-k Momentum,2016-06-30,TLT,0.3333333333333333
+Top-k Momentum,2016-08-31,TLT,0.3333333333333333
+Top-k Momentum,2016-09-30,TLT,0.0
+Top-k Momentum,2016-10-31,TLT,0.0
+Top-k Momentum,2016-11-30,TLT,0.0
+Top-k Momentum,2017-01-31,TLT,0.0
+Top-k Momentum,2017-02-28,TLT,0.0
+Top-k Momentum,2017-03-31,TLT,0.0
+Top-k Momentum,2017-05-31,TLT,0.0
+Top-k Momentum,2017-06-30,TLT,0.0
+Top-k Momentum,2017-07-31,TLT,0.0
+Top-k Momentum,2017-08-31,TLT,0.0
+Top-k Momentum,2017-10-31,TLT,0.0
+Top-k Momentum,2017-11-30,TLT,0.0
+Top-k Momentum,2018-01-31,TLT,0.0
+Top-k Momentum,2018-02-28,TLT,0.0
+Top-k Momentum,2018-04-30,TLT,0.0
+Top-k Momentum,2018-05-31,TLT,0.0
+Top-k Momentum,2018-07-31,TLT,0.0
+Top-k Momentum,2018-08-31,TLT,0.0
+Top-k Momentum,2018-10-31,TLT,0.0
+Top-k Momentum,2018-11-30,TLT,0.0
+Top-k Momentum,2018-12-31,TLT,0.3333333333333333
+Top-k Momentum,2019-01-31,TLT,0.3333333333333333
+Top-k Momentum,2019-02-28,TLT,0.3333333333333333
+Top-k Momentum,2019-04-30,TLT,0.3333333333333333
+Top-k Momentum,2019-05-31,TLT,0.3333333333333333
+Top-k Momentum,2019-07-31,TLT,0.3333333333333333
+Top-k Momentum,2019-09-30,TLT,0.3333333333333333
+Top-k Momentum,2019-10-31,TLT,0.3333333333333333
+Top-k Momentum,2019-12-31,TLT,0.0
+Top-k Momentum,2020-01-31,TLT,0.3333333333333333
+Top-k Momentum,2020-03-31,TLT,0.3333333333333333
+Top-k Momentum,2020-04-30,TLT,0.3333333333333333
+Top-k Momentum,2020-06-30,TLT,0.3333333333333333
+Top-k Momentum,2020-07-31,TLT,0.3333333333333333
+Top-k Momentum,2020-08-31,TLT,0.0
+Top-k Momentum,2020-09-30,TLT,0.0
+Top-k Momentum,2020-11-30,TLT,0.0
+Top-k Momentum,2020-12-31,TLT,0.0
+Top-k Momentum,2021-03-31,TLT,0.0
+Top-k Momentum,2021-04-30,TLT,0.0
+Top-k Momentum,2021-06-30,TLT,0.0
+Top-k Momentum,2021-08-31,TLT,0.0
+Top-k Momentum,2021-09-30,TLT,0.0
+Top-k Momentum,2021-11-30,TLT,0.0
+Top-k Momentum,2021-12-31,TLT,0.0
+Top-k Momentum,2022-01-31,TLT,0.0
+Top-k Momentum,2022-02-28,TLT,0.0
+Top-k Momentum,2022-03-31,TLT,0.0
+Top-k Momentum,2022-05-31,TLT,0.0
+Top-k Momentum,2022-06-30,TLT,0.0
+Top-k Momentum,2022-08-31,TLT,0.0
+Top-k Momentum,2022-09-30,TLT,0.0
+Top-k Momentum,2022-10-31,TLT,0.0
+Top-k Momentum,2022-11-30,TLT,0.0
+Top-k Momentum,2023-01-31,TLT,0.0
+Top-k Momentum,2023-02-28,TLT,0.0
+Top-k Momentum,2023-03-31,TLT,0.0
+Top-k Momentum,2023-05-31,TLT,0.0
+Top-k Momentum,2023-06-30,TLT,0.0
+Top-k Momentum,2023-07-31,TLT,0.0
+Top-k Momentum,2023-08-31,TLT,0.0
+Top-k Momentum,2023-10-31,TLT,0.0
+Top-k Momentum,2023-11-30,TLT,0.0
 Top-k Momentum,2024-01-31,TLT,0.0
 Top-k Momentum,2024-02-29,TLT,0.0
 Top-k Momentum,2024-04-30,TLT,0.0
@@ -109,6 +532,77 @@ Top-k Momentum,2025-06-30,TLT,0.0
 Top-k Momentum,2025-07-31,TLT,0.0
 Top-k Momentum,2025-09-30,TLT,0.0
 Top-k Momentum,2025-10-31,TLT,0.0
+Top-k Momentum,2025-12-31,TLT,0.0
+Top-k Momentum,2026-03-31,TLT,0.0
+Top-k Momentum,2026-04-30,TLT,0.0
+Top-k Momentum,2016-02-29,GLD,0.3333333333333333
+Top-k Momentum,2016-03-31,GLD,0.3333333333333333
+Top-k Momentum,2016-05-31,GLD,0.3333333333333333
+Top-k Momentum,2016-06-30,GLD,0.3333333333333333
+Top-k Momentum,2016-08-31,GLD,0.0
+Top-k Momentum,2016-09-30,GLD,0.0
+Top-k Momentum,2016-10-31,GLD,0.0
+Top-k Momentum,2016-11-30,GLD,0.0
+Top-k Momentum,2017-01-31,GLD,0.0
+Top-k Momentum,2017-02-28,GLD,0.0
+Top-k Momentum,2017-03-31,GLD,0.0
+Top-k Momentum,2017-05-31,GLD,0.0
+Top-k Momentum,2017-06-30,GLD,0.0
+Top-k Momentum,2017-07-31,GLD,0.0
+Top-k Momentum,2017-08-31,GLD,0.0
+Top-k Momentum,2017-10-31,GLD,0.0
+Top-k Momentum,2017-11-30,GLD,0.0
+Top-k Momentum,2018-01-31,GLD,0.0
+Top-k Momentum,2018-02-28,GLD,0.0
+Top-k Momentum,2018-04-30,GLD,0.0
+Top-k Momentum,2018-05-31,GLD,0.0
+Top-k Momentum,2018-07-31,GLD,0.0
+Top-k Momentum,2018-08-31,GLD,0.0
+Top-k Momentum,2018-10-31,GLD,0.0
+Top-k Momentum,2018-11-30,GLD,0.3333333333333333
+Top-k Momentum,2018-12-31,GLD,0.3333333333333333
+Top-k Momentum,2019-01-31,GLD,0.3333333333333333
+Top-k Momentum,2019-02-28,GLD,0.3333333333333333
+Top-k Momentum,2019-04-30,GLD,0.0
+Top-k Momentum,2019-05-31,GLD,0.3333333333333333
+Top-k Momentum,2019-07-31,GLD,0.3333333333333333
+Top-k Momentum,2019-09-30,GLD,0.3333333333333333
+Top-k Momentum,2019-10-31,GLD,0.3333333333333333
+Top-k Momentum,2019-12-31,GLD,0.0
+Top-k Momentum,2020-01-31,GLD,0.0
+Top-k Momentum,2020-03-31,GLD,0.3333333333333333
+Top-k Momentum,2020-04-30,GLD,0.3333333333333333
+Top-k Momentum,2020-06-30,GLD,0.3333333333333333
+Top-k Momentum,2020-07-31,GLD,0.3333333333333333
+Top-k Momentum,2020-08-31,GLD,0.3333333333333333
+Top-k Momentum,2020-09-30,GLD,0.0
+Top-k Momentum,2020-11-30,GLD,0.0
+Top-k Momentum,2020-12-31,GLD,0.0
+Top-k Momentum,2021-03-31,GLD,0.0
+Top-k Momentum,2021-04-30,GLD,0.0
+Top-k Momentum,2021-06-30,GLD,0.0
+Top-k Momentum,2021-08-31,GLD,0.0
+Top-k Momentum,2021-09-30,GLD,0.0
+Top-k Momentum,2021-11-30,GLD,0.0
+Top-k Momentum,2021-12-31,GLD,0.0
+Top-k Momentum,2022-01-31,GLD,0.0
+Top-k Momentum,2022-02-28,GLD,0.3333333333333333
+Top-k Momentum,2022-03-31,GLD,0.3333333333333333
+Top-k Momentum,2022-05-31,GLD,0.3333333333333333
+Top-k Momentum,2022-06-30,GLD,0.3333333333333333
+Top-k Momentum,2022-08-31,GLD,0.3333333333333333
+Top-k Momentum,2022-09-30,GLD,0.3333333333333333
+Top-k Momentum,2022-10-31,GLD,0.3333333333333333
+Top-k Momentum,2022-11-30,GLD,0.3333333333333333
+Top-k Momentum,2023-01-31,GLD,0.3333333333333333
+Top-k Momentum,2023-02-28,GLD,0.3333333333333333
+Top-k Momentum,2023-03-31,GLD,0.3333333333333333
+Top-k Momentum,2023-05-31,GLD,0.3333333333333333
+Top-k Momentum,2023-06-30,GLD,0.0
+Top-k Momentum,2023-07-31,GLD,0.0
+Top-k Momentum,2023-08-31,GLD,0.0
+Top-k Momentum,2023-10-31,GLD,0.3333333333333333
+Top-k Momentum,2023-11-30,GLD,0.3333333333333333
 Top-k Momentum,2024-01-31,GLD,0.0
 Top-k Momentum,2024-02-29,GLD,0.0
 Top-k Momentum,2024-04-30,GLD,0.3333333333333333
@@ -125,6 +619,77 @@ Top-k Momentum,2025-06-30,GLD,0.3333333333333333
 Top-k Momentum,2025-07-31,GLD,0.3333333333333333
 Top-k Momentum,2025-09-30,GLD,0.3333333333333333
 Top-k Momentum,2025-10-31,GLD,0.3333333333333333
+Top-k Momentum,2025-12-31,GLD,0.3333333333333333
+Top-k Momentum,2026-03-31,GLD,0.3333333333333333
+Top-k Momentum,2026-04-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2016-02-29,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-03-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-05-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-06-30,SPY,0.0
+Top-k Vol-Adjusted Momentum,2016-08-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-09-30,SPY,0.0
+Top-k Vol-Adjusted Momentum,2016-10-31,SPY,0.0
+Top-k Vol-Adjusted Momentum,2016-11-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-01-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-02-28,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-03-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-05-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-06-30,SPY,0.0
+Top-k Vol-Adjusted Momentum,2017-07-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-08-31,SPY,0.0
+Top-k Vol-Adjusted Momentum,2017-10-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-11-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-01-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-02-28,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-04-30,SPY,0.0
+Top-k Vol-Adjusted Momentum,2018-05-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-07-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-08-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-10-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-11-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-12-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-01-31,SPY,0.0
+Top-k Vol-Adjusted Momentum,2019-02-28,SPY,0.0
+Top-k Vol-Adjusted Momentum,2019-04-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-05-31,SPY,0.0
+Top-k Vol-Adjusted Momentum,2019-07-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-09-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-10-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-12-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-01-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-03-31,SPY,0.0
+Top-k Vol-Adjusted Momentum,2020-04-30,SPY,0.0
+Top-k Vol-Adjusted Momentum,2020-06-30,SPY,0.0
+Top-k Vol-Adjusted Momentum,2020-07-31,SPY,0.0
+Top-k Vol-Adjusted Momentum,2020-08-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-09-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-11-30,SPY,0.0
+Top-k Vol-Adjusted Momentum,2020-12-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-03-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-04-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-06-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-08-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-09-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-11-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-12-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-01-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-02-28,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-03-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-05-31,SPY,0.0
+Top-k Vol-Adjusted Momentum,2022-06-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-08-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-09-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-10-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-11-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-01-31,SPY,0.0
+Top-k Vol-Adjusted Momentum,2023-02-28,SPY,0.0
+Top-k Vol-Adjusted Momentum,2023-03-31,SPY,0.0
+Top-k Vol-Adjusted Momentum,2023-05-31,SPY,0.0
+Top-k Vol-Adjusted Momentum,2023-06-30,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-07-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-08-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-10-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-11-30,SPY,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2024-01-31,SPY,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2024-02-29,SPY,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2024-04-30,SPY,0.3333333333333333
@@ -141,6 +706,77 @@ Top-k Vol-Adjusted Momentum,2025-06-30,SPY,0.0
 Top-k Vol-Adjusted Momentum,2025-07-31,SPY,0.0
 Top-k Vol-Adjusted Momentum,2025-09-30,SPY,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2025-10-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2025-12-31,SPY,0.0
+Top-k Vol-Adjusted Momentum,2026-03-31,SPY,0.0
+Top-k Vol-Adjusted Momentum,2026-04-30,SPY,0.0
+Top-k Vol-Adjusted Momentum,2016-02-29,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2016-03-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2016-05-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2016-06-30,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2016-08-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-09-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-10-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-11-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-01-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-02-28,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-03-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-05-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-06-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-07-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2017-08-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2017-10-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2017-11-30,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2018-01-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-02-28,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-04-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-05-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-07-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-08-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-10-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-11-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-12-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2019-01-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2019-02-28,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2019-04-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-05-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-07-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-09-30,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2019-10-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2019-12-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-01-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-03-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-04-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-06-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-07-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-08-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-09-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-11-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-12-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2021-03-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2021-04-30,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2021-06-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-08-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-09-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-11-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-12-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-01-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-02-28,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-03-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-05-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2022-06-30,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2022-08-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-09-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-10-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-11-30,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2023-01-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2023-02-28,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2023-03-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2023-05-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-06-30,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-07-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-08-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-10-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-11-30,QQQ,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2024-01-31,QQQ,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2024-02-29,QQQ,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2024-04-30,QQQ,0.3333333333333333
@@ -157,6 +793,77 @@ Top-k Vol-Adjusted Momentum,2025-06-30,QQQ,0.0
 Top-k Vol-Adjusted Momentum,2025-07-31,QQQ,0.0
 Top-k Vol-Adjusted Momentum,2025-09-30,QQQ,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2025-10-31,QQQ,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2025-12-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2026-03-31,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2026-04-30,QQQ,0.0
+Top-k Vol-Adjusted Momentum,2016-02-29,IWM,0.0
+Top-k Vol-Adjusted Momentum,2016-03-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2016-05-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2016-06-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2016-08-31,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-09-30,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-10-31,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-11-30,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-01-31,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-02-28,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-03-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2017-05-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2017-06-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2017-07-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2017-08-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2017-10-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2017-11-30,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-01-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2018-02-28,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-04-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2018-05-31,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-07-31,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-08-31,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-10-31,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-11-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2018-12-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2019-01-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2019-02-28,IWM,0.0
+Top-k Vol-Adjusted Momentum,2019-04-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2019-05-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2019-07-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2019-09-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2019-10-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2019-12-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2020-01-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2020-03-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2020-04-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2020-06-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2020-07-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2020-08-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2020-09-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2020-11-30,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-12-31,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-03-31,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-04-30,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-06-30,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-08-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2021-09-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2021-11-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2021-12-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2022-01-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2022-02-28,IWM,0.0
+Top-k Vol-Adjusted Momentum,2022-03-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2022-05-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2022-06-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2022-08-31,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-09-30,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-10-31,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-11-30,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-01-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2023-02-28,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-03-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2023-05-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2023-06-30,IWM,0.0
+Top-k Vol-Adjusted Momentum,2023-07-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2023-08-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2023-10-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2023-11-30,IWM,0.0
 Top-k Vol-Adjusted Momentum,2024-01-31,IWM,0.0
 Top-k Vol-Adjusted Momentum,2024-02-29,IWM,0.0
 Top-k Vol-Adjusted Momentum,2024-04-30,IWM,0.0
@@ -173,6 +880,77 @@ Top-k Vol-Adjusted Momentum,2025-06-30,IWM,0.0
 Top-k Vol-Adjusted Momentum,2025-07-31,IWM,0.0
 Top-k Vol-Adjusted Momentum,2025-09-30,IWM,0.0
 Top-k Vol-Adjusted Momentum,2025-10-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2025-12-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2026-03-31,IWM,0.0
+Top-k Vol-Adjusted Momentum,2026-04-30,IWM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-02-29,EFA,0.0
+Top-k Vol-Adjusted Momentum,2016-03-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2016-05-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2016-06-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2016-08-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2016-09-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2016-10-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2016-11-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2017-01-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2017-02-28,EFA,0.0
+Top-k Vol-Adjusted Momentum,2017-03-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-05-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-06-30,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-07-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-08-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-10-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-11-30,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-01-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-02-28,EFA,0.0
+Top-k Vol-Adjusted Momentum,2018-04-30,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-05-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2018-07-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2018-08-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2018-10-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2018-11-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2018-12-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2019-01-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2019-02-28,EFA,0.0
+Top-k Vol-Adjusted Momentum,2019-04-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2019-05-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2019-07-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2019-09-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2019-10-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2019-12-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2020-01-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2020-03-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2020-04-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2020-06-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2020-07-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2020-08-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2020-09-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2020-11-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2020-12-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2021-03-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-04-30,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-06-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2021-08-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-09-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2021-11-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2021-12-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2022-01-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2022-02-28,EFA,0.0
+Top-k Vol-Adjusted Momentum,2022-03-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2022-05-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-06-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2022-08-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2022-09-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2022-10-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2022-11-30,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-01-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-02-28,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-03-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-05-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-06-30,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-07-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-08-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2023-10-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2023-11-30,EFA,0.0
 Top-k Vol-Adjusted Momentum,2024-01-31,EFA,0.0
 Top-k Vol-Adjusted Momentum,2024-02-29,EFA,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2024-04-30,EFA,0.3333333333333333
@@ -189,6 +967,77 @@ Top-k Vol-Adjusted Momentum,2025-06-30,EFA,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2025-07-31,EFA,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2025-09-30,EFA,0.0
 Top-k Vol-Adjusted Momentum,2025-10-31,EFA,0.0
+Top-k Vol-Adjusted Momentum,2025-12-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2026-03-31,EFA,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2026-04-30,EFA,0.0
+Top-k Vol-Adjusted Momentum,2016-02-29,EEM,0.0
+Top-k Vol-Adjusted Momentum,2016-03-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2016-05-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2016-06-30,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-08-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2016-09-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2016-10-31,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-11-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2017-01-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2017-02-28,EEM,0.0
+Top-k Vol-Adjusted Momentum,2017-03-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2017-05-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2017-06-30,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-07-31,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-08-31,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-10-31,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-11-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2018-01-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2018-02-28,EEM,0.0
+Top-k Vol-Adjusted Momentum,2018-04-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2018-05-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2018-07-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2018-08-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2018-10-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2018-11-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2018-12-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2019-01-31,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-02-28,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-04-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2019-05-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2019-07-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2019-09-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2019-10-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2019-12-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2020-01-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2020-03-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2020-04-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2020-06-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2020-07-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2020-08-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2020-09-30,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-11-30,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-12-31,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-03-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2021-04-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2021-06-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2021-08-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2021-09-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2021-11-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2021-12-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2022-01-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2022-02-28,EEM,0.0
+Top-k Vol-Adjusted Momentum,2022-03-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2022-05-31,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-06-30,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-08-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2022-09-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2022-10-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2022-11-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2023-01-31,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-02-28,EEM,0.0
+Top-k Vol-Adjusted Momentum,2023-03-31,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-05-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2023-06-30,EEM,0.0
+Top-k Vol-Adjusted Momentum,2023-07-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2023-08-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2023-10-31,EEM,0.0
+Top-k Vol-Adjusted Momentum,2023-11-30,EEM,0.0
 Top-k Vol-Adjusted Momentum,2024-01-31,EEM,0.0
 Top-k Vol-Adjusted Momentum,2024-02-29,EEM,0.0
 Top-k Vol-Adjusted Momentum,2024-04-30,EEM,0.0
@@ -205,6 +1054,77 @@ Top-k Vol-Adjusted Momentum,2025-06-30,EEM,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2025-07-31,EEM,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2025-09-30,EEM,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2025-10-31,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2025-12-31,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2026-03-31,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2026-04-30,EEM,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-02-29,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-03-31,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-05-31,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-06-30,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-08-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2016-09-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2016-10-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2016-11-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2017-01-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2017-02-28,TLT,0.0
+Top-k Vol-Adjusted Momentum,2017-03-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2017-05-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2017-06-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2017-07-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2017-08-31,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2017-10-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2017-11-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2018-01-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2018-02-28,TLT,0.0
+Top-k Vol-Adjusted Momentum,2018-04-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2018-05-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2018-07-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2018-08-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2018-10-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2018-11-30,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-12-31,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-01-31,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-02-28,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-04-30,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-05-31,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-07-31,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-09-30,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-10-31,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-12-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2020-01-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2020-03-31,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-04-30,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-06-30,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-07-31,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-08-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2020-09-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2020-11-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2020-12-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2021-03-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2021-04-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2021-06-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2021-08-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2021-09-30,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-11-30,TLT,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2021-12-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2022-01-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2022-02-28,TLT,0.0
+Top-k Vol-Adjusted Momentum,2022-03-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2022-05-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2022-06-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2022-08-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2022-09-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2022-10-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2022-11-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2023-01-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2023-02-28,TLT,0.0
+Top-k Vol-Adjusted Momentum,2023-03-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2023-05-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2023-06-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2023-07-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2023-08-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2023-10-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2023-11-30,TLT,0.0
 Top-k Vol-Adjusted Momentum,2024-01-31,TLT,0.0
 Top-k Vol-Adjusted Momentum,2024-02-29,TLT,0.0
 Top-k Vol-Adjusted Momentum,2024-04-30,TLT,0.0
@@ -221,6 +1141,77 @@ Top-k Vol-Adjusted Momentum,2025-06-30,TLT,0.0
 Top-k Vol-Adjusted Momentum,2025-07-31,TLT,0.0
 Top-k Vol-Adjusted Momentum,2025-09-30,TLT,0.0
 Top-k Vol-Adjusted Momentum,2025-10-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2025-12-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2026-03-31,TLT,0.0
+Top-k Vol-Adjusted Momentum,2026-04-30,TLT,0.0
+Top-k Vol-Adjusted Momentum,2016-02-29,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-03-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-05-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-06-30,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-08-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2016-09-30,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2016-10-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2016-11-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2017-01-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2017-02-28,GLD,0.0
+Top-k Vol-Adjusted Momentum,2017-03-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2017-05-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2017-06-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2017-07-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2017-08-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2017-10-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2017-11-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2018-01-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2018-02-28,GLD,0.0
+Top-k Vol-Adjusted Momentum,2018-04-30,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2018-05-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2018-07-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2018-08-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2018-10-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2018-11-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2018-12-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-01-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-02-28,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-04-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2019-05-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-07-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2019-09-30,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-10-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2019-12-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-01-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-03-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-04-30,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-06-30,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-07-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-08-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2020-09-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2020-11-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2020-12-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2021-03-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2021-04-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2021-06-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2021-08-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2021-09-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2021-11-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2021-12-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-01-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-02-28,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-03-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-05-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-06-30,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2022-08-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2022-09-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2022-10-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2022-11-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2023-01-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-02-28,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-03-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-05-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-06-30,GLD,0.0
+Top-k Vol-Adjusted Momentum,2023-07-31,GLD,0.0
+Top-k Vol-Adjusted Momentum,2023-08-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-10-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2023-11-30,GLD,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2024-01-31,GLD,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2024-02-29,GLD,0.0
 Top-k Vol-Adjusted Momentum,2024-04-30,GLD,0.0
@@ -237,54 +1228,338 @@ Top-k Vol-Adjusted Momentum,2025-06-30,GLD,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2025-07-31,GLD,0.3333333333333333
 Top-k Vol-Adjusted Momentum,2025-09-30,GLD,0.0
 Top-k Vol-Adjusted Momentum,2025-10-31,GLD,0.0
-Ridge Predicted Return,2024-01-31,SPY,0.3333333333333333
-Ridge Predicted Return,2024-02-29,SPY,0.3333333333333333
-Ridge Predicted Return,2024-04-30,SPY,0.3333333333333333
-Ridge Predicted Return,2024-05-31,SPY,0.3333333333333333
-Ridge Predicted Return,2024-07-31,SPY,0.3333333333333333
-Ridge Predicted Return,2024-09-30,SPY,0.3333333333333333
-Ridge Predicted Return,2024-10-31,SPY,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2025-12-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2026-03-31,GLD,0.3333333333333333
+Top-k Vol-Adjusted Momentum,2026-04-30,GLD,0.3333333333333333
+Ridge Predicted Return,2016-02-29,SPY,0.3333333333333333
+Ridge Predicted Return,2016-03-31,SPY,0.3333333333333333
+Ridge Predicted Return,2016-05-31,SPY,0.0
+Ridge Predicted Return,2016-06-30,SPY,0.0
+Ridge Predicted Return,2016-08-31,SPY,0.0
+Ridge Predicted Return,2016-09-30,SPY,0.0
+Ridge Predicted Return,2016-10-31,SPY,0.0
+Ridge Predicted Return,2016-11-30,SPY,0.0
+Ridge Predicted Return,2017-01-31,SPY,0.0
+Ridge Predicted Return,2017-02-28,SPY,0.0
+Ridge Predicted Return,2017-03-31,SPY,0.3333333333333333
+Ridge Predicted Return,2017-05-31,SPY,0.0
+Ridge Predicted Return,2017-06-30,SPY,0.0
+Ridge Predicted Return,2017-07-31,SPY,0.0
+Ridge Predicted Return,2017-08-31,SPY,0.0
+Ridge Predicted Return,2017-10-31,SPY,0.0
+Ridge Predicted Return,2017-11-30,SPY,0.0
+Ridge Predicted Return,2018-01-31,SPY,0.0
+Ridge Predicted Return,2018-02-28,SPY,0.0
+Ridge Predicted Return,2018-04-30,SPY,0.3333333333333333
+Ridge Predicted Return,2018-05-31,SPY,0.0
+Ridge Predicted Return,2018-07-31,SPY,0.0
+Ridge Predicted Return,2018-08-31,SPY,0.0
+Ridge Predicted Return,2018-10-31,SPY,0.3333333333333333
+Ridge Predicted Return,2018-11-30,SPY,0.0
+Ridge Predicted Return,2018-12-31,SPY,0.0
+Ridge Predicted Return,2019-01-31,SPY,0.3333333333333333
+Ridge Predicted Return,2019-02-28,SPY,0.3333333333333333
+Ridge Predicted Return,2019-04-30,SPY,0.0
+Ridge Predicted Return,2019-05-31,SPY,0.0
+Ridge Predicted Return,2019-07-31,SPY,0.0
+Ridge Predicted Return,2019-09-30,SPY,0.0
+Ridge Predicted Return,2019-10-31,SPY,0.0
+Ridge Predicted Return,2019-12-31,SPY,0.0
+Ridge Predicted Return,2020-01-31,SPY,0.0
+Ridge Predicted Return,2020-03-31,SPY,0.0
+Ridge Predicted Return,2020-04-30,SPY,0.0
+Ridge Predicted Return,2020-06-30,SPY,0.3333333333333333
+Ridge Predicted Return,2020-07-31,SPY,0.3333333333333333
+Ridge Predicted Return,2020-08-31,SPY,0.0
+Ridge Predicted Return,2020-09-30,SPY,0.0
+Ridge Predicted Return,2020-11-30,SPY,0.0
+Ridge Predicted Return,2020-12-31,SPY,0.3333333333333333
+Ridge Predicted Return,2021-03-31,SPY,0.0
+Ridge Predicted Return,2021-04-30,SPY,0.0
+Ridge Predicted Return,2021-06-30,SPY,0.0
+Ridge Predicted Return,2021-08-31,SPY,0.0
+Ridge Predicted Return,2021-09-30,SPY,0.0
+Ridge Predicted Return,2021-11-30,SPY,0.0
+Ridge Predicted Return,2021-12-31,SPY,0.0
+Ridge Predicted Return,2022-01-31,SPY,0.0
+Ridge Predicted Return,2022-02-28,SPY,0.0
+Ridge Predicted Return,2022-03-31,SPY,0.0
+Ridge Predicted Return,2022-05-31,SPY,0.0
+Ridge Predicted Return,2022-06-30,SPY,0.3333333333333333
+Ridge Predicted Return,2022-08-31,SPY,0.3333333333333333
+Ridge Predicted Return,2022-09-30,SPY,0.3333333333333333
+Ridge Predicted Return,2022-10-31,SPY,0.0
+Ridge Predicted Return,2022-11-30,SPY,0.3333333333333333
+Ridge Predicted Return,2023-01-31,SPY,0.3333333333333333
+Ridge Predicted Return,2023-02-28,SPY,0.0
+Ridge Predicted Return,2023-03-31,SPY,0.0
+Ridge Predicted Return,2023-05-31,SPY,0.0
+Ridge Predicted Return,2023-06-30,SPY,0.0
+Ridge Predicted Return,2023-07-31,SPY,0.0
+Ridge Predicted Return,2023-08-31,SPY,0.0
+Ridge Predicted Return,2023-10-31,SPY,0.0
+Ridge Predicted Return,2023-11-30,SPY,0.0
+Ridge Predicted Return,2024-01-31,SPY,0.0
+Ridge Predicted Return,2024-02-29,SPY,0.0
+Ridge Predicted Return,2024-04-30,SPY,0.0
+Ridge Predicted Return,2024-05-31,SPY,0.0
+Ridge Predicted Return,2024-07-31,SPY,0.0
+Ridge Predicted Return,2024-09-30,SPY,0.0
+Ridge Predicted Return,2024-10-31,SPY,0.0
 Ridge Predicted Return,2024-12-31,SPY,0.0
-Ridge Predicted Return,2025-01-31,SPY,0.3333333333333333
+Ridge Predicted Return,2025-01-31,SPY,0.0
 Ridge Predicted Return,2025-02-28,SPY,0.3333333333333333
-Ridge Predicted Return,2025-03-31,SPY,0.0
-Ridge Predicted Return,2025-04-30,SPY,0.0
+Ridge Predicted Return,2025-03-31,SPY,0.3333333333333333
+Ridge Predicted Return,2025-04-30,SPY,0.3333333333333333
 Ridge Predicted Return,2025-06-30,SPY,0.0
 Ridge Predicted Return,2025-07-31,SPY,0.0
 Ridge Predicted Return,2025-09-30,SPY,0.0
 Ridge Predicted Return,2025-10-31,SPY,0.0
-Ridge Predicted Return,2024-01-31,QQQ,0.3333333333333333
-Ridge Predicted Return,2024-02-29,QQQ,0.3333333333333333
+Ridge Predicted Return,2025-12-31,SPY,0.0
+Ridge Predicted Return,2026-03-31,SPY,0.0
+Ridge Predicted Return,2026-04-30,SPY,0.0
+Ridge Predicted Return,2016-02-29,QQQ,0.3333333333333333
+Ridge Predicted Return,2016-03-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2016-05-31,QQQ,0.0
+Ridge Predicted Return,2016-06-30,QQQ,0.0
+Ridge Predicted Return,2016-08-31,QQQ,0.0
+Ridge Predicted Return,2016-09-30,QQQ,0.0
+Ridge Predicted Return,2016-10-31,QQQ,0.0
+Ridge Predicted Return,2016-11-30,QQQ,0.0
+Ridge Predicted Return,2017-01-31,QQQ,0.0
+Ridge Predicted Return,2017-02-28,QQQ,0.0
+Ridge Predicted Return,2017-03-31,QQQ,0.0
+Ridge Predicted Return,2017-05-31,QQQ,0.0
+Ridge Predicted Return,2017-06-30,QQQ,0.0
+Ridge Predicted Return,2017-07-31,QQQ,0.0
+Ridge Predicted Return,2017-08-31,QQQ,0.0
+Ridge Predicted Return,2017-10-31,QQQ,0.0
+Ridge Predicted Return,2017-11-30,QQQ,0.0
+Ridge Predicted Return,2018-01-31,QQQ,0.0
+Ridge Predicted Return,2018-02-28,QQQ,0.0
+Ridge Predicted Return,2018-04-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2018-05-31,QQQ,0.0
+Ridge Predicted Return,2018-07-31,QQQ,0.0
+Ridge Predicted Return,2018-08-31,QQQ,0.0
+Ridge Predicted Return,2018-10-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2018-11-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2018-12-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2019-01-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2019-02-28,QQQ,0.3333333333333333
+Ridge Predicted Return,2019-04-30,QQQ,0.0
+Ridge Predicted Return,2019-05-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2019-07-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2019-09-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2019-10-31,QQQ,0.0
+Ridge Predicted Return,2019-12-31,QQQ,0.0
+Ridge Predicted Return,2020-01-31,QQQ,0.0
+Ridge Predicted Return,2020-03-31,QQQ,0.0
+Ridge Predicted Return,2020-04-30,QQQ,0.0
+Ridge Predicted Return,2020-06-30,QQQ,0.0
+Ridge Predicted Return,2020-07-31,QQQ,0.0
+Ridge Predicted Return,2020-08-31,QQQ,0.0
+Ridge Predicted Return,2020-09-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2020-11-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2020-12-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2021-03-31,QQQ,0.0
+Ridge Predicted Return,2021-04-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2021-06-30,QQQ,0.0
+Ridge Predicted Return,2021-08-31,QQQ,0.0
+Ridge Predicted Return,2021-09-30,QQQ,0.0
+Ridge Predicted Return,2021-11-30,QQQ,0.0
+Ridge Predicted Return,2021-12-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2022-01-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2022-02-28,QQQ,0.3333333333333333
+Ridge Predicted Return,2022-03-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2022-05-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2022-06-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2022-08-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2022-09-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2022-10-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2022-11-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2023-01-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2023-02-28,QQQ,0.0
+Ridge Predicted Return,2023-03-31,QQQ,0.0
+Ridge Predicted Return,2023-05-31,QQQ,0.0
+Ridge Predicted Return,2023-06-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2023-07-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2023-08-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2023-10-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2023-11-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2024-01-31,QQQ,0.0
+Ridge Predicted Return,2024-02-29,QQQ,0.0
 Ridge Predicted Return,2024-04-30,QQQ,0.3333333333333333
 Ridge Predicted Return,2024-05-31,QQQ,0.3333333333333333
 Ridge Predicted Return,2024-07-31,QQQ,0.3333333333333333
 Ridge Predicted Return,2024-09-30,QQQ,0.3333333333333333
-Ridge Predicted Return,2024-10-31,QQQ,0.0
+Ridge Predicted Return,2024-10-31,QQQ,0.3333333333333333
 Ridge Predicted Return,2024-12-31,QQQ,0.0
-Ridge Predicted Return,2025-01-31,QQQ,0.0
-Ridge Predicted Return,2025-02-28,QQQ,0.0
+Ridge Predicted Return,2025-01-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2025-02-28,QQQ,0.3333333333333333
 Ridge Predicted Return,2025-03-31,QQQ,0.3333333333333333
-Ridge Predicted Return,2025-04-30,QQQ,0.0
-Ridge Predicted Return,2025-06-30,QQQ,0.0
+Ridge Predicted Return,2025-04-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2025-06-30,QQQ,0.3333333333333333
 Ridge Predicted Return,2025-07-31,QQQ,0.0
 Ridge Predicted Return,2025-09-30,QQQ,0.3333333333333333
-Ridge Predicted Return,2025-10-31,QQQ,0.3333333333333333
-Ridge Predicted Return,2024-01-31,IWM,0.0
-Ridge Predicted Return,2024-02-29,IWM,0.0
-Ridge Predicted Return,2024-04-30,IWM,0.0
-Ridge Predicted Return,2024-05-31,IWM,0.0
+Ridge Predicted Return,2025-10-31,QQQ,0.0
+Ridge Predicted Return,2025-12-31,QQQ,0.3333333333333333
+Ridge Predicted Return,2026-03-31,QQQ,0.0
+Ridge Predicted Return,2026-04-30,QQQ,0.0
+Ridge Predicted Return,2016-02-29,IWM,0.0
+Ridge Predicted Return,2016-03-31,IWM,0.0
+Ridge Predicted Return,2016-05-31,IWM,0.0
+Ridge Predicted Return,2016-06-30,IWM,0.0
+Ridge Predicted Return,2016-08-31,IWM,0.3333333333333333
+Ridge Predicted Return,2016-09-30,IWM,0.0
+Ridge Predicted Return,2016-10-31,IWM,0.3333333333333333
+Ridge Predicted Return,2016-11-30,IWM,0.0
+Ridge Predicted Return,2017-01-31,IWM,0.3333333333333333
+Ridge Predicted Return,2017-02-28,IWM,0.3333333333333333
+Ridge Predicted Return,2017-03-31,IWM,0.3333333333333333
+Ridge Predicted Return,2017-05-31,IWM,0.0
+Ridge Predicted Return,2017-06-30,IWM,0.0
+Ridge Predicted Return,2017-07-31,IWM,0.3333333333333333
+Ridge Predicted Return,2017-08-31,IWM,0.3333333333333333
+Ridge Predicted Return,2017-10-31,IWM,0.3333333333333333
+Ridge Predicted Return,2017-11-30,IWM,0.0
+Ridge Predicted Return,2018-01-31,IWM,0.3333333333333333
+Ridge Predicted Return,2018-02-28,IWM,0.3333333333333333
+Ridge Predicted Return,2018-04-30,IWM,0.0
+Ridge Predicted Return,2018-05-31,IWM,0.0
+Ridge Predicted Return,2018-07-31,IWM,0.3333333333333333
+Ridge Predicted Return,2018-08-31,IWM,0.0
+Ridge Predicted Return,2018-10-31,IWM,0.3333333333333333
+Ridge Predicted Return,2018-11-30,IWM,0.3333333333333333
+Ridge Predicted Return,2018-12-31,IWM,0.3333333333333333
+Ridge Predicted Return,2019-01-31,IWM,0.3333333333333333
+Ridge Predicted Return,2019-02-28,IWM,0.0
+Ridge Predicted Return,2019-04-30,IWM,0.3333333333333333
+Ridge Predicted Return,2019-05-31,IWM,0.3333333333333333
+Ridge Predicted Return,2019-07-31,IWM,0.0
+Ridge Predicted Return,2019-09-30,IWM,0.3333333333333333
+Ridge Predicted Return,2019-10-31,IWM,0.3333333333333333
+Ridge Predicted Return,2019-12-31,IWM,0.3333333333333333
+Ridge Predicted Return,2020-01-31,IWM,0.3333333333333333
+Ridge Predicted Return,2020-03-31,IWM,0.3333333333333333
+Ridge Predicted Return,2020-04-30,IWM,0.3333333333333333
+Ridge Predicted Return,2020-06-30,IWM,0.3333333333333333
+Ridge Predicted Return,2020-07-31,IWM,0.3333333333333333
+Ridge Predicted Return,2020-08-31,IWM,0.3333333333333333
+Ridge Predicted Return,2020-09-30,IWM,0.3333333333333333
+Ridge Predicted Return,2020-11-30,IWM,0.0
+Ridge Predicted Return,2020-12-31,IWM,0.0
+Ridge Predicted Return,2021-03-31,IWM,0.3333333333333333
+Ridge Predicted Return,2021-04-30,IWM,0.3333333333333333
+Ridge Predicted Return,2021-06-30,IWM,0.3333333333333333
+Ridge Predicted Return,2021-08-31,IWM,0.0
+Ridge Predicted Return,2021-09-30,IWM,0.0
+Ridge Predicted Return,2021-11-30,IWM,0.3333333333333333
+Ridge Predicted Return,2021-12-31,IWM,0.3333333333333333
+Ridge Predicted Return,2022-01-31,IWM,0.3333333333333333
+Ridge Predicted Return,2022-02-28,IWM,0.3333333333333333
+Ridge Predicted Return,2022-03-31,IWM,0.3333333333333333
+Ridge Predicted Return,2022-05-31,IWM,0.3333333333333333
+Ridge Predicted Return,2022-06-30,IWM,0.3333333333333333
+Ridge Predicted Return,2022-08-31,IWM,0.3333333333333333
+Ridge Predicted Return,2022-09-30,IWM,0.3333333333333333
+Ridge Predicted Return,2022-10-31,IWM,0.3333333333333333
+Ridge Predicted Return,2022-11-30,IWM,0.3333333333333333
+Ridge Predicted Return,2023-01-31,IWM,0.0
+Ridge Predicted Return,2023-02-28,IWM,0.0
+Ridge Predicted Return,2023-03-31,IWM,0.3333333333333333
+Ridge Predicted Return,2023-05-31,IWM,0.0
+Ridge Predicted Return,2023-06-30,IWM,0.0
+Ridge Predicted Return,2023-07-31,IWM,0.3333333333333333
+Ridge Predicted Return,2023-08-31,IWM,0.3333333333333333
+Ridge Predicted Return,2023-10-31,IWM,0.3333333333333333
+Ridge Predicted Return,2023-11-30,IWM,0.3333333333333333
+Ridge Predicted Return,2024-01-31,IWM,0.3333333333333333
+Ridge Predicted Return,2024-02-29,IWM,0.3333333333333333
+Ridge Predicted Return,2024-04-30,IWM,0.3333333333333333
+Ridge Predicted Return,2024-05-31,IWM,0.3333333333333333
 Ridge Predicted Return,2024-07-31,IWM,0.0
-Ridge Predicted Return,2024-09-30,IWM,0.0
-Ridge Predicted Return,2024-10-31,IWM,0.0
-Ridge Predicted Return,2024-12-31,IWM,0.0
-Ridge Predicted Return,2025-01-31,IWM,0.0
+Ridge Predicted Return,2024-09-30,IWM,0.3333333333333333
+Ridge Predicted Return,2024-10-31,IWM,0.3333333333333333
+Ridge Predicted Return,2024-12-31,IWM,0.3333333333333333
+Ridge Predicted Return,2025-01-31,IWM,0.3333333333333333
 Ridge Predicted Return,2025-02-28,IWM,0.3333333333333333
 Ridge Predicted Return,2025-03-31,IWM,0.3333333333333333
 Ridge Predicted Return,2025-04-30,IWM,0.3333333333333333
 Ridge Predicted Return,2025-06-30,IWM,0.0
-Ridge Predicted Return,2025-07-31,IWM,0.0
-Ridge Predicted Return,2025-09-30,IWM,0.0
-Ridge Predicted Return,2025-10-31,IWM,0.0
+Ridge Predicted Return,2025-07-31,IWM,0.3333333333333333
+Ridge Predicted Return,2025-09-30,IWM,0.3333333333333333
+Ridge Predicted Return,2025-10-31,IWM,0.3333333333333333
+Ridge Predicted Return,2025-12-31,IWM,0.3333333333333333
+Ridge Predicted Return,2026-03-31,IWM,0.3333333333333333
+Ridge Predicted Return,2026-04-30,IWM,0.0
+Ridge Predicted Return,2016-02-29,EFA,0.3333333333333333
+Ridge Predicted Return,2016-03-31,EFA,0.3333333333333333
+Ridge Predicted Return,2016-05-31,EFA,0.0
+Ridge Predicted Return,2016-06-30,EFA,0.3333333333333333
+Ridge Predicted Return,2016-08-31,EFA,0.3333333333333333
+Ridge Predicted Return,2016-09-30,EFA,0.3333333333333333
+Ridge Predicted Return,2016-10-31,EFA,0.0
+Ridge Predicted Return,2016-11-30,EFA,0.0
+Ridge Predicted Return,2017-01-31,EFA,0.0
+Ridge Predicted Return,2017-02-28,EFA,0.3333333333333333
+Ridge Predicted Return,2017-03-31,EFA,0.0
+Ridge Predicted Return,2017-05-31,EFA,0.0
+Ridge Predicted Return,2017-06-30,EFA,0.0
+Ridge Predicted Return,2017-07-31,EFA,0.0
+Ridge Predicted Return,2017-08-31,EFA,0.3333333333333333
+Ridge Predicted Return,2017-10-31,EFA,0.0
+Ridge Predicted Return,2017-11-30,EFA,0.0
+Ridge Predicted Return,2018-01-31,EFA,0.0
+Ridge Predicted Return,2018-02-28,EFA,0.3333333333333333
+Ridge Predicted Return,2018-04-30,EFA,0.0
+Ridge Predicted Return,2018-05-31,EFA,0.3333333333333333
+Ridge Predicted Return,2018-07-31,EFA,0.0
+Ridge Predicted Return,2018-08-31,EFA,0.3333333333333333
+Ridge Predicted Return,2018-10-31,EFA,0.0
+Ridge Predicted Return,2018-11-30,EFA,0.3333333333333333
+Ridge Predicted Return,2018-12-31,EFA,0.0
+Ridge Predicted Return,2019-01-31,EFA,0.0
+Ridge Predicted Return,2019-02-28,EFA,0.0
+Ridge Predicted Return,2019-04-30,EFA,0.0
+Ridge Predicted Return,2019-05-31,EFA,0.0
+Ridge Predicted Return,2019-07-31,EFA,0.3333333333333333
+Ridge Predicted Return,2019-09-30,EFA,0.0
+Ridge Predicted Return,2019-10-31,EFA,0.0
+Ridge Predicted Return,2019-12-31,EFA,0.3333333333333333
+Ridge Predicted Return,2020-01-31,EFA,0.3333333333333333
+Ridge Predicted Return,2020-03-31,EFA,0.3333333333333333
+Ridge Predicted Return,2020-04-30,EFA,0.3333333333333333
+Ridge Predicted Return,2020-06-30,EFA,0.3333333333333333
+Ridge Predicted Return,2020-07-31,EFA,0.3333333333333333
+Ridge Predicted Return,2020-08-31,EFA,0.3333333333333333
+Ridge Predicted Return,2020-09-30,EFA,0.0
+Ridge Predicted Return,2020-11-30,EFA,0.0
+Ridge Predicted Return,2020-12-31,EFA,0.3333333333333333
+Ridge Predicted Return,2021-03-31,EFA,0.0
+Ridge Predicted Return,2021-04-30,EFA,0.0
+Ridge Predicted Return,2021-06-30,EFA,0.3333333333333333
+Ridge Predicted Return,2021-08-31,EFA,0.0
+Ridge Predicted Return,2021-09-30,EFA,0.0
+Ridge Predicted Return,2021-11-30,EFA,0.0
+Ridge Predicted Return,2021-12-31,EFA,0.0
+Ridge Predicted Return,2022-01-31,EFA,0.0
+Ridge Predicted Return,2022-02-28,EFA,0.0
+Ridge Predicted Return,2022-03-31,EFA,0.0
+Ridge Predicted Return,2022-05-31,EFA,0.0
+Ridge Predicted Return,2022-06-30,EFA,0.0
+Ridge Predicted Return,2022-08-31,EFA,0.0
+Ridge Predicted Return,2022-09-30,EFA,0.0
+Ridge Predicted Return,2022-10-31,EFA,0.0
+Ridge Predicted Return,2022-11-30,EFA,0.0
+Ridge Predicted Return,2023-01-31,EFA,0.3333333333333333
+Ridge Predicted Return,2023-02-28,EFA,0.3333333333333333
+Ridge Predicted Return,2023-03-31,EFA,0.3333333333333333
+Ridge Predicted Return,2023-05-31,EFA,0.3333333333333333
+Ridge Predicted Return,2023-06-30,EFA,0.0
+Ridge Predicted Return,2023-07-31,EFA,0.0
+Ridge Predicted Return,2023-08-31,EFA,0.0
+Ridge Predicted Return,2023-10-31,EFA,0.0
+Ridge Predicted Return,2023-11-30,EFA,0.0
 Ridge Predicted Return,2024-01-31,EFA,0.0
 Ridge Predicted Return,2024-02-29,EFA,0.0
 Ridge Predicted Return,2024-04-30,EFA,0.0
@@ -299,123 +1574,691 @@ Ridge Predicted Return,2025-03-31,EFA,0.0
 Ridge Predicted Return,2025-04-30,EFA,0.0
 Ridge Predicted Return,2025-06-30,EFA,0.3333333333333333
 Ridge Predicted Return,2025-07-31,EFA,0.3333333333333333
-Ridge Predicted Return,2025-09-30,EFA,0.0
+Ridge Predicted Return,2025-09-30,EFA,0.3333333333333333
 Ridge Predicted Return,2025-10-31,EFA,0.0
-Ridge Predicted Return,2024-01-31,EEM,0.0
+Ridge Predicted Return,2025-12-31,EFA,0.0
+Ridge Predicted Return,2026-03-31,EFA,0.0
+Ridge Predicted Return,2026-04-30,EFA,0.3333333333333333
+Ridge Predicted Return,2016-02-29,EEM,0.0
+Ridge Predicted Return,2016-03-31,EEM,0.0
+Ridge Predicted Return,2016-05-31,EEM,0.3333333333333333
+Ridge Predicted Return,2016-06-30,EEM,0.0
+Ridge Predicted Return,2016-08-31,EEM,0.3333333333333333
+Ridge Predicted Return,2016-09-30,EEM,0.0
+Ridge Predicted Return,2016-10-31,EEM,0.3333333333333333
+Ridge Predicted Return,2016-11-30,EEM,0.3333333333333333
+Ridge Predicted Return,2017-01-31,EEM,0.3333333333333333
+Ridge Predicted Return,2017-02-28,EEM,0.0
+Ridge Predicted Return,2017-03-31,EEM,0.0
+Ridge Predicted Return,2017-05-31,EEM,0.3333333333333333
+Ridge Predicted Return,2017-06-30,EEM,0.3333333333333333
+Ridge Predicted Return,2017-07-31,EEM,0.0
+Ridge Predicted Return,2017-08-31,EEM,0.0
+Ridge Predicted Return,2017-10-31,EEM,0.0
+Ridge Predicted Return,2017-11-30,EEM,0.3333333333333333
+Ridge Predicted Return,2018-01-31,EEM,0.0
+Ridge Predicted Return,2018-02-28,EEM,0.0
+Ridge Predicted Return,2018-04-30,EEM,0.3333333333333333
+Ridge Predicted Return,2018-05-31,EEM,0.3333333333333333
+Ridge Predicted Return,2018-07-31,EEM,0.0
+Ridge Predicted Return,2018-08-31,EEM,0.0
+Ridge Predicted Return,2018-10-31,EEM,0.0
+Ridge Predicted Return,2018-11-30,EEM,0.0
+Ridge Predicted Return,2018-12-31,EEM,0.3333333333333333
+Ridge Predicted Return,2019-01-31,EEM,0.0
+Ridge Predicted Return,2019-02-28,EEM,0.0
+Ridge Predicted Return,2019-04-30,EEM,0.3333333333333333
+Ridge Predicted Return,2019-05-31,EEM,0.3333333333333333
+Ridge Predicted Return,2019-07-31,EEM,0.3333333333333333
+Ridge Predicted Return,2019-09-30,EEM,0.0
+Ridge Predicted Return,2019-10-31,EEM,0.0
+Ridge Predicted Return,2019-12-31,EEM,0.0
+Ridge Predicted Return,2020-01-31,EEM,0.3333333333333333
+Ridge Predicted Return,2020-03-31,EEM,0.3333333333333333
+Ridge Predicted Return,2020-04-30,EEM,0.3333333333333333
+Ridge Predicted Return,2020-06-30,EEM,0.0
+Ridge Predicted Return,2020-07-31,EEM,0.0
+Ridge Predicted Return,2020-08-31,EEM,0.3333333333333333
+Ridge Predicted Return,2020-09-30,EEM,0.0
+Ridge Predicted Return,2020-11-30,EEM,0.0
+Ridge Predicted Return,2020-12-31,EEM,0.0
+Ridge Predicted Return,2021-03-31,EEM,0.3333333333333333
+Ridge Predicted Return,2021-04-30,EEM,0.3333333333333333
+Ridge Predicted Return,2021-06-30,EEM,0.0
+Ridge Predicted Return,2021-08-31,EEM,0.3333333333333333
+Ridge Predicted Return,2021-09-30,EEM,0.3333333333333333
+Ridge Predicted Return,2021-11-30,EEM,0.3333333333333333
+Ridge Predicted Return,2021-12-31,EEM,0.0
+Ridge Predicted Return,2022-01-31,EEM,0.0
+Ridge Predicted Return,2022-02-28,EEM,0.3333333333333333
+Ridge Predicted Return,2022-03-31,EEM,0.3333333333333333
+Ridge Predicted Return,2022-05-31,EEM,0.3333333333333333
+Ridge Predicted Return,2022-06-30,EEM,0.0
+Ridge Predicted Return,2022-08-31,EEM,0.0
+Ridge Predicted Return,2022-09-30,EEM,0.0
+Ridge Predicted Return,2022-10-31,EEM,0.0
+Ridge Predicted Return,2022-11-30,EEM,0.0
+Ridge Predicted Return,2023-01-31,EEM,0.0
+Ridge Predicted Return,2023-02-28,EEM,0.3333333333333333
+Ridge Predicted Return,2023-03-31,EEM,0.3333333333333333
+Ridge Predicted Return,2023-05-31,EEM,0.0
+Ridge Predicted Return,2023-06-30,EEM,0.0
+Ridge Predicted Return,2023-07-31,EEM,0.0
+Ridge Predicted Return,2023-08-31,EEM,0.3333333333333333
+Ridge Predicted Return,2023-10-31,EEM,0.0
+Ridge Predicted Return,2023-11-30,EEM,0.0
+Ridge Predicted Return,2024-01-31,EEM,0.3333333333333333
 Ridge Predicted Return,2024-02-29,EEM,0.0
 Ridge Predicted Return,2024-04-30,EEM,0.0
 Ridge Predicted Return,2024-05-31,EEM,0.0
-Ridge Predicted Return,2024-07-31,EEM,0.0
+Ridge Predicted Return,2024-07-31,EEM,0.3333333333333333
 Ridge Predicted Return,2024-09-30,EEM,0.0
-Ridge Predicted Return,2024-10-31,EEM,0.0
-Ridge Predicted Return,2024-12-31,EEM,0.3333333333333333
-Ridge Predicted Return,2025-01-31,EEM,0.3333333333333333
+Ridge Predicted Return,2024-10-31,EEM,0.3333333333333333
+Ridge Predicted Return,2024-12-31,EEM,0.0
+Ridge Predicted Return,2025-01-31,EEM,0.0
 Ridge Predicted Return,2025-02-28,EEM,0.0
 Ridge Predicted Return,2025-03-31,EEM,0.0
 Ridge Predicted Return,2025-04-30,EEM,0.0
 Ridge Predicted Return,2025-06-30,EEM,0.0
-Ridge Predicted Return,2025-07-31,EEM,0.3333333333333333
-Ridge Predicted Return,2025-09-30,EEM,0.3333333333333333
+Ridge Predicted Return,2025-07-31,EEM,0.0
+Ridge Predicted Return,2025-09-30,EEM,0.0
 Ridge Predicted Return,2025-10-31,EEM,0.3333333333333333
-Ridge Predicted Return,2024-01-31,TLT,0.0
+Ridge Predicted Return,2025-12-31,EEM,0.0
+Ridge Predicted Return,2026-03-31,EEM,0.3333333333333333
+Ridge Predicted Return,2026-04-30,EEM,0.3333333333333333
+Ridge Predicted Return,2016-02-29,TLT,0.0
+Ridge Predicted Return,2016-03-31,TLT,0.0
+Ridge Predicted Return,2016-05-31,TLT,0.3333333333333333
+Ridge Predicted Return,2016-06-30,TLT,0.3333333333333333
+Ridge Predicted Return,2016-08-31,TLT,0.0
+Ridge Predicted Return,2016-09-30,TLT,0.3333333333333333
+Ridge Predicted Return,2016-10-31,TLT,0.3333333333333333
+Ridge Predicted Return,2016-11-30,TLT,0.3333333333333333
+Ridge Predicted Return,2017-01-31,TLT,0.3333333333333333
+Ridge Predicted Return,2017-02-28,TLT,0.3333333333333333
+Ridge Predicted Return,2017-03-31,TLT,0.0
+Ridge Predicted Return,2017-05-31,TLT,0.3333333333333333
+Ridge Predicted Return,2017-06-30,TLT,0.3333333333333333
+Ridge Predicted Return,2017-07-31,TLT,0.3333333333333333
+Ridge Predicted Return,2017-08-31,TLT,0.3333333333333333
+Ridge Predicted Return,2017-10-31,TLT,0.3333333333333333
+Ridge Predicted Return,2017-11-30,TLT,0.3333333333333333
+Ridge Predicted Return,2018-01-31,TLT,0.3333333333333333
+Ridge Predicted Return,2018-02-28,TLT,0.3333333333333333
+Ridge Predicted Return,2018-04-30,TLT,0.0
+Ridge Predicted Return,2018-05-31,TLT,0.0
+Ridge Predicted Return,2018-07-31,TLT,0.3333333333333333
+Ridge Predicted Return,2018-08-31,TLT,0.3333333333333333
+Ridge Predicted Return,2018-10-31,TLT,0.0
+Ridge Predicted Return,2018-11-30,TLT,0.0
+Ridge Predicted Return,2018-12-31,TLT,0.0
+Ridge Predicted Return,2019-01-31,TLT,0.0
+Ridge Predicted Return,2019-02-28,TLT,0.0
+Ridge Predicted Return,2019-04-30,TLT,0.3333333333333333
+Ridge Predicted Return,2019-05-31,TLT,0.0
+Ridge Predicted Return,2019-07-31,TLT,0.0
+Ridge Predicted Return,2019-09-30,TLT,0.0
+Ridge Predicted Return,2019-10-31,TLT,0.3333333333333333
+Ridge Predicted Return,2019-12-31,TLT,0.3333333333333333
+Ridge Predicted Return,2020-01-31,TLT,0.0
+Ridge Predicted Return,2020-03-31,TLT,0.0
+Ridge Predicted Return,2020-04-30,TLT,0.0
+Ridge Predicted Return,2020-06-30,TLT,0.0
+Ridge Predicted Return,2020-07-31,TLT,0.0
+Ridge Predicted Return,2020-08-31,TLT,0.0
+Ridge Predicted Return,2020-09-30,TLT,0.0
+Ridge Predicted Return,2020-11-30,TLT,0.3333333333333333
+Ridge Predicted Return,2020-12-31,TLT,0.0
+Ridge Predicted Return,2021-03-31,TLT,0.3333333333333333
+Ridge Predicted Return,2021-04-30,TLT,0.0
+Ridge Predicted Return,2021-06-30,TLT,0.0
+Ridge Predicted Return,2021-08-31,TLT,0.3333333333333333
+Ridge Predicted Return,2021-09-30,TLT,0.3333333333333333
+Ridge Predicted Return,2021-11-30,TLT,0.3333333333333333
+Ridge Predicted Return,2021-12-31,TLT,0.3333333333333333
+Ridge Predicted Return,2022-01-31,TLT,0.3333333333333333
+Ridge Predicted Return,2022-02-28,TLT,0.0
+Ridge Predicted Return,2022-03-31,TLT,0.0
+Ridge Predicted Return,2022-05-31,TLT,0.0
+Ridge Predicted Return,2022-06-30,TLT,0.0
+Ridge Predicted Return,2022-08-31,TLT,0.0
+Ridge Predicted Return,2022-09-30,TLT,0.0
+Ridge Predicted Return,2022-10-31,TLT,0.3333333333333333
+Ridge Predicted Return,2022-11-30,TLT,0.0
+Ridge Predicted Return,2023-01-31,TLT,0.0
+Ridge Predicted Return,2023-02-28,TLT,0.3333333333333333
+Ridge Predicted Return,2023-03-31,TLT,0.0
+Ridge Predicted Return,2023-05-31,TLT,0.3333333333333333
+Ridge Predicted Return,2023-06-30,TLT,0.3333333333333333
+Ridge Predicted Return,2023-07-31,TLT,0.3333333333333333
+Ridge Predicted Return,2023-08-31,TLT,0.0
+Ridge Predicted Return,2023-10-31,TLT,0.3333333333333333
+Ridge Predicted Return,2023-11-30,TLT,0.3333333333333333
+Ridge Predicted Return,2024-01-31,TLT,0.3333333333333333
 Ridge Predicted Return,2024-02-29,TLT,0.3333333333333333
 Ridge Predicted Return,2024-04-30,TLT,0.3333333333333333
 Ridge Predicted Return,2024-05-31,TLT,0.0
 Ridge Predicted Return,2024-07-31,TLT,0.0
-Ridge Predicted Return,2024-09-30,TLT,0.0
-Ridge Predicted Return,2024-10-31,TLT,0.3333333333333333
+Ridge Predicted Return,2024-09-30,TLT,0.3333333333333333
+Ridge Predicted Return,2024-10-31,TLT,0.0
 Ridge Predicted Return,2024-12-31,TLT,0.3333333333333333
-Ridge Predicted Return,2025-01-31,TLT,0.0
+Ridge Predicted Return,2025-01-31,TLT,0.3333333333333333
 Ridge Predicted Return,2025-02-28,TLT,0.0
 Ridge Predicted Return,2025-03-31,TLT,0.0
-Ridge Predicted Return,2025-04-30,TLT,0.3333333333333333
-Ridge Predicted Return,2025-06-30,TLT,0.3333333333333333
+Ridge Predicted Return,2025-04-30,TLT,0.0
+Ridge Predicted Return,2025-06-30,TLT,0.0
 Ridge Predicted Return,2025-07-31,TLT,0.0
 Ridge Predicted Return,2025-09-30,TLT,0.0
 Ridge Predicted Return,2025-10-31,TLT,0.0
-Ridge Predicted Return,2024-01-31,GLD,0.3333333333333333
-Ridge Predicted Return,2024-02-29,GLD,0.0
+Ridge Predicted Return,2025-12-31,TLT,0.0
+Ridge Predicted Return,2026-03-31,TLT,0.0
+Ridge Predicted Return,2026-04-30,TLT,0.0
+Ridge Predicted Return,2016-02-29,GLD,0.0
+Ridge Predicted Return,2016-03-31,GLD,0.0
+Ridge Predicted Return,2016-05-31,GLD,0.3333333333333333
+Ridge Predicted Return,2016-06-30,GLD,0.3333333333333333
+Ridge Predicted Return,2016-08-31,GLD,0.0
+Ridge Predicted Return,2016-09-30,GLD,0.3333333333333333
+Ridge Predicted Return,2016-10-31,GLD,0.0
+Ridge Predicted Return,2016-11-30,GLD,0.3333333333333333
+Ridge Predicted Return,2017-01-31,GLD,0.0
+Ridge Predicted Return,2017-02-28,GLD,0.0
+Ridge Predicted Return,2017-03-31,GLD,0.3333333333333333
+Ridge Predicted Return,2017-05-31,GLD,0.3333333333333333
+Ridge Predicted Return,2017-06-30,GLD,0.3333333333333333
+Ridge Predicted Return,2017-07-31,GLD,0.3333333333333333
+Ridge Predicted Return,2017-08-31,GLD,0.0
+Ridge Predicted Return,2017-10-31,GLD,0.3333333333333333
+Ridge Predicted Return,2017-11-30,GLD,0.3333333333333333
+Ridge Predicted Return,2018-01-31,GLD,0.3333333333333333
+Ridge Predicted Return,2018-02-28,GLD,0.0
+Ridge Predicted Return,2018-04-30,GLD,0.0
+Ridge Predicted Return,2018-05-31,GLD,0.3333333333333333
+Ridge Predicted Return,2018-07-31,GLD,0.3333333333333333
+Ridge Predicted Return,2018-08-31,GLD,0.3333333333333333
+Ridge Predicted Return,2018-10-31,GLD,0.0
+Ridge Predicted Return,2018-11-30,GLD,0.0
+Ridge Predicted Return,2018-12-31,GLD,0.0
+Ridge Predicted Return,2019-01-31,GLD,0.0
+Ridge Predicted Return,2019-02-28,GLD,0.3333333333333333
+Ridge Predicted Return,2019-04-30,GLD,0.0
+Ridge Predicted Return,2019-05-31,GLD,0.0
+Ridge Predicted Return,2019-07-31,GLD,0.0
+Ridge Predicted Return,2019-09-30,GLD,0.3333333333333333
+Ridge Predicted Return,2019-10-31,GLD,0.3333333333333333
+Ridge Predicted Return,2019-12-31,GLD,0.0
+Ridge Predicted Return,2020-01-31,GLD,0.0
+Ridge Predicted Return,2020-03-31,GLD,0.0
+Ridge Predicted Return,2020-04-30,GLD,0.0
+Ridge Predicted Return,2020-06-30,GLD,0.0
+Ridge Predicted Return,2020-07-31,GLD,0.0
+Ridge Predicted Return,2020-08-31,GLD,0.0
+Ridge Predicted Return,2020-09-30,GLD,0.3333333333333333
+Ridge Predicted Return,2020-11-30,GLD,0.3333333333333333
+Ridge Predicted Return,2020-12-31,GLD,0.0
+Ridge Predicted Return,2021-03-31,GLD,0.0
+Ridge Predicted Return,2021-04-30,GLD,0.0
+Ridge Predicted Return,2021-06-30,GLD,0.3333333333333333
+Ridge Predicted Return,2021-08-31,GLD,0.3333333333333333
+Ridge Predicted Return,2021-09-30,GLD,0.3333333333333333
+Ridge Predicted Return,2021-11-30,GLD,0.0
+Ridge Predicted Return,2021-12-31,GLD,0.0
+Ridge Predicted Return,2022-01-31,GLD,0.0
+Ridge Predicted Return,2022-02-28,GLD,0.0
+Ridge Predicted Return,2022-03-31,GLD,0.0
+Ridge Predicted Return,2022-05-31,GLD,0.0
+Ridge Predicted Return,2022-06-30,GLD,0.0
+Ridge Predicted Return,2022-08-31,GLD,0.0
+Ridge Predicted Return,2022-09-30,GLD,0.0
+Ridge Predicted Return,2022-10-31,GLD,0.0
+Ridge Predicted Return,2022-11-30,GLD,0.0
+Ridge Predicted Return,2023-01-31,GLD,0.0
+Ridge Predicted Return,2023-02-28,GLD,0.0
+Ridge Predicted Return,2023-03-31,GLD,0.0
+Ridge Predicted Return,2023-05-31,GLD,0.3333333333333333
+Ridge Predicted Return,2023-06-30,GLD,0.3333333333333333
+Ridge Predicted Return,2023-07-31,GLD,0.0
+Ridge Predicted Return,2023-08-31,GLD,0.0
+Ridge Predicted Return,2023-10-31,GLD,0.0
+Ridge Predicted Return,2023-11-30,GLD,0.0
+Ridge Predicted Return,2024-01-31,GLD,0.0
+Ridge Predicted Return,2024-02-29,GLD,0.3333333333333333
 Ridge Predicted Return,2024-04-30,GLD,0.0
 Ridge Predicted Return,2024-05-31,GLD,0.3333333333333333
 Ridge Predicted Return,2024-07-31,GLD,0.3333333333333333
-Ridge Predicted Return,2024-09-30,GLD,0.3333333333333333
-Ridge Predicted Return,2024-10-31,GLD,0.3333333333333333
+Ridge Predicted Return,2024-09-30,GLD,0.0
+Ridge Predicted Return,2024-10-31,GLD,0.0
 Ridge Predicted Return,2024-12-31,GLD,0.3333333333333333
-Ridge Predicted Return,2025-01-31,GLD,0.3333333333333333
-Ridge Predicted Return,2025-02-28,GLD,0.3333333333333333
-Ridge Predicted Return,2025-03-31,GLD,0.3333333333333333
-Ridge Predicted Return,2025-04-30,GLD,0.3333333333333333
+Ridge Predicted Return,2025-01-31,GLD,0.0
+Ridge Predicted Return,2025-02-28,GLD,0.0
+Ridge Predicted Return,2025-03-31,GLD,0.0
+Ridge Predicted Return,2025-04-30,GLD,0.0
 Ridge Predicted Return,2025-06-30,GLD,0.3333333333333333
 Ridge Predicted Return,2025-07-31,GLD,0.3333333333333333
-Ridge Predicted Return,2025-09-30,GLD,0.3333333333333333
+Ridge Predicted Return,2025-09-30,GLD,0.0
 Ridge Predicted Return,2025-10-31,GLD,0.3333333333333333
-Gradient Boosting Predicted Return,2024-01-31,SPY,0.0
-Gradient Boosting Predicted Return,2024-02-29,SPY,0.3333333333333333
-Gradient Boosting Predicted Return,2024-04-30,SPY,0.0
+Ridge Predicted Return,2025-12-31,GLD,0.3333333333333333
+Ridge Predicted Return,2026-03-31,GLD,0.3333333333333333
+Ridge Predicted Return,2026-04-30,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2016-02-29,SPY,0.0
+Gradient Boosting Predicted Return,2016-03-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2016-05-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2016-06-30,SPY,0.0
+Gradient Boosting Predicted Return,2016-08-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2016-09-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2016-10-31,SPY,0.0
+Gradient Boosting Predicted Return,2016-11-30,SPY,0.0
+Gradient Boosting Predicted Return,2017-01-31,SPY,0.0
+Gradient Boosting Predicted Return,2017-02-28,SPY,0.0
+Gradient Boosting Predicted Return,2017-03-31,SPY,0.0
+Gradient Boosting Predicted Return,2017-05-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2017-06-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2017-07-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2017-08-31,SPY,0.0
+Gradient Boosting Predicted Return,2017-10-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2017-11-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2018-01-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2018-02-28,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2018-04-30,SPY,0.0
+Gradient Boosting Predicted Return,2018-05-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2018-07-31,SPY,0.0
+Gradient Boosting Predicted Return,2018-08-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2018-10-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2018-11-30,SPY,0.0
+Gradient Boosting Predicted Return,2018-12-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2019-01-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2019-02-28,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2019-04-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2019-05-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2019-07-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2019-09-30,SPY,0.0
+Gradient Boosting Predicted Return,2019-10-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2019-12-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2020-01-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2020-03-31,SPY,0.0
+Gradient Boosting Predicted Return,2020-04-30,SPY,0.0
+Gradient Boosting Predicted Return,2020-06-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2020-07-31,SPY,0.0
+Gradient Boosting Predicted Return,2020-08-31,SPY,0.0
+Gradient Boosting Predicted Return,2020-09-30,SPY,0.0
+Gradient Boosting Predicted Return,2020-11-30,SPY,0.0
+Gradient Boosting Predicted Return,2020-12-31,SPY,0.0
+Gradient Boosting Predicted Return,2021-03-31,SPY,0.0
+Gradient Boosting Predicted Return,2021-04-30,SPY,0.0
+Gradient Boosting Predicted Return,2021-06-30,SPY,0.0
+Gradient Boosting Predicted Return,2021-08-31,SPY,0.0
+Gradient Boosting Predicted Return,2021-09-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2021-11-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2021-12-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2022-01-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2022-02-28,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2022-03-31,SPY,0.0
+Gradient Boosting Predicted Return,2022-05-31,SPY,0.0
+Gradient Boosting Predicted Return,2022-06-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2022-08-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2022-09-30,SPY,0.0
+Gradient Boosting Predicted Return,2022-10-31,SPY,0.0
+Gradient Boosting Predicted Return,2022-11-30,SPY,0.0
+Gradient Boosting Predicted Return,2023-01-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2023-02-28,SPY,0.0
+Gradient Boosting Predicted Return,2023-03-31,SPY,0.0
+Gradient Boosting Predicted Return,2023-05-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2023-06-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2023-07-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2023-08-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2023-10-31,SPY,0.0
+Gradient Boosting Predicted Return,2023-11-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2024-01-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2024-02-29,SPY,0.0
+Gradient Boosting Predicted Return,2024-04-30,SPY,0.3333333333333333
 Gradient Boosting Predicted Return,2024-05-31,SPY,0.3333333333333333
-Gradient Boosting Predicted Return,2024-07-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2024-07-31,SPY,0.0
 Gradient Boosting Predicted Return,2024-09-30,SPY,0.3333333333333333
 Gradient Boosting Predicted Return,2024-10-31,SPY,0.3333333333333333
 Gradient Boosting Predicted Return,2024-12-31,SPY,0.3333333333333333
-Gradient Boosting Predicted Return,2025-01-31,SPY,0.0
-Gradient Boosting Predicted Return,2025-02-28,SPY,0.0
-Gradient Boosting Predicted Return,2025-03-31,SPY,0.0
+Gradient Boosting Predicted Return,2025-01-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2025-02-28,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2025-03-31,SPY,0.3333333333333333
 Gradient Boosting Predicted Return,2025-04-30,SPY,0.0
 Gradient Boosting Predicted Return,2025-06-30,SPY,0.3333333333333333
-Gradient Boosting Predicted Return,2025-07-31,SPY,0.0
+Gradient Boosting Predicted Return,2025-07-31,SPY,0.3333333333333333
 Gradient Boosting Predicted Return,2025-09-30,SPY,0.0
-Gradient Boosting Predicted Return,2025-10-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2025-10-31,SPY,0.0
+Gradient Boosting Predicted Return,2025-12-31,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2026-03-31,SPY,0.0
+Gradient Boosting Predicted Return,2026-04-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2016-02-29,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2016-03-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2016-05-31,QQQ,0.0
+Gradient Boosting Predicted Return,2016-06-30,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2016-08-31,QQQ,0.0
+Gradient Boosting Predicted Return,2016-09-30,QQQ,0.0
+Gradient Boosting Predicted Return,2016-10-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2016-11-30,QQQ,0.0
+Gradient Boosting Predicted Return,2017-01-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2017-02-28,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2017-03-31,QQQ,0.0
+Gradient Boosting Predicted Return,2017-05-31,QQQ,0.0
+Gradient Boosting Predicted Return,2017-06-30,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2017-07-31,QQQ,0.0
+Gradient Boosting Predicted Return,2017-08-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2017-10-31,QQQ,0.0
+Gradient Boosting Predicted Return,2017-11-30,QQQ,0.0
+Gradient Boosting Predicted Return,2018-01-31,QQQ,0.0
+Gradient Boosting Predicted Return,2018-02-28,QQQ,0.0
+Gradient Boosting Predicted Return,2018-04-30,QQQ,0.0
+Gradient Boosting Predicted Return,2018-05-31,QQQ,0.0
+Gradient Boosting Predicted Return,2018-07-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2018-08-31,QQQ,0.0
+Gradient Boosting Predicted Return,2018-10-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2018-11-30,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2018-12-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2019-01-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2019-02-28,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2019-04-30,QQQ,0.0
+Gradient Boosting Predicted Return,2019-05-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2019-07-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2019-09-30,QQQ,0.0
+Gradient Boosting Predicted Return,2019-10-31,QQQ,0.0
+Gradient Boosting Predicted Return,2019-12-31,QQQ,0.0
+Gradient Boosting Predicted Return,2020-01-31,QQQ,0.0
+Gradient Boosting Predicted Return,2020-03-31,QQQ,0.0
+Gradient Boosting Predicted Return,2020-04-30,QQQ,0.0
+Gradient Boosting Predicted Return,2020-06-30,QQQ,0.0
+Gradient Boosting Predicted Return,2020-07-31,QQQ,0.0
+Gradient Boosting Predicted Return,2020-08-31,QQQ,0.0
+Gradient Boosting Predicted Return,2020-09-30,QQQ,0.0
+Gradient Boosting Predicted Return,2020-11-30,QQQ,0.0
+Gradient Boosting Predicted Return,2020-12-31,QQQ,0.0
+Gradient Boosting Predicted Return,2021-03-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2021-04-30,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2021-06-30,QQQ,0.0
+Gradient Boosting Predicted Return,2021-08-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2021-09-30,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2021-11-30,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2021-12-31,QQQ,0.0
+Gradient Boosting Predicted Return,2022-01-31,QQQ,0.0
+Gradient Boosting Predicted Return,2022-02-28,QQQ,0.0
+Gradient Boosting Predicted Return,2022-03-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2022-05-31,QQQ,0.0
+Gradient Boosting Predicted Return,2022-06-30,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2022-08-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2022-09-30,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2022-10-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2022-11-30,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2023-01-31,QQQ,0.0
+Gradient Boosting Predicted Return,2023-02-28,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2023-03-31,QQQ,0.0
+Gradient Boosting Predicted Return,2023-05-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2023-06-30,QQQ,0.0
+Gradient Boosting Predicted Return,2023-07-31,QQQ,0.0
+Gradient Boosting Predicted Return,2023-08-31,QQQ,0.0
+Gradient Boosting Predicted Return,2023-10-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2023-11-30,QQQ,0.0
 Gradient Boosting Predicted Return,2024-01-31,QQQ,0.3333333333333333
 Gradient Boosting Predicted Return,2024-02-29,QQQ,0.3333333333333333
-Gradient Boosting Predicted Return,2024-04-30,QQQ,0.0
+Gradient Boosting Predicted Return,2024-04-30,QQQ,0.3333333333333333
 Gradient Boosting Predicted Return,2024-05-31,QQQ,0.0
 Gradient Boosting Predicted Return,2024-07-31,QQQ,0.0
 Gradient Boosting Predicted Return,2024-09-30,QQQ,0.3333333333333333
 Gradient Boosting Predicted Return,2024-10-31,QQQ,0.0
 Gradient Boosting Predicted Return,2024-12-31,QQQ,0.0
-Gradient Boosting Predicted Return,2025-01-31,QQQ,0.3333333333333333
-Gradient Boosting Predicted Return,2025-02-28,QQQ,0.0
-Gradient Boosting Predicted Return,2025-03-31,QQQ,0.0
-Gradient Boosting Predicted Return,2025-04-30,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2025-01-31,QQQ,0.0
+Gradient Boosting Predicted Return,2025-02-28,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2025-03-31,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2025-04-30,QQQ,0.0
 Gradient Boosting Predicted Return,2025-06-30,QQQ,0.0
 Gradient Boosting Predicted Return,2025-07-31,QQQ,0.0
 Gradient Boosting Predicted Return,2025-09-30,QQQ,0.0
 Gradient Boosting Predicted Return,2025-10-31,QQQ,0.0
-Gradient Boosting Predicted Return,2024-01-31,IWM,0.0
-Gradient Boosting Predicted Return,2024-02-29,IWM,0.0
+Gradient Boosting Predicted Return,2025-12-31,QQQ,0.0
+Gradient Boosting Predicted Return,2026-03-31,QQQ,0.0
+Gradient Boosting Predicted Return,2026-04-30,QQQ,0.0
+Gradient Boosting Predicted Return,2016-02-29,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2016-03-31,IWM,0.0
+Gradient Boosting Predicted Return,2016-05-31,IWM,0.0
+Gradient Boosting Predicted Return,2016-06-30,IWM,0.0
+Gradient Boosting Predicted Return,2016-08-31,IWM,0.0
+Gradient Boosting Predicted Return,2016-09-30,IWM,0.0
+Gradient Boosting Predicted Return,2016-10-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2016-11-30,IWM,0.0
+Gradient Boosting Predicted Return,2017-01-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2017-02-28,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2017-03-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2017-05-31,IWM,0.0
+Gradient Boosting Predicted Return,2017-06-30,IWM,0.0
+Gradient Boosting Predicted Return,2017-07-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2017-08-31,IWM,0.0
+Gradient Boosting Predicted Return,2017-10-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2017-11-30,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2018-01-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2018-02-28,IWM,0.0
+Gradient Boosting Predicted Return,2018-04-30,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2018-05-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2018-07-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2018-08-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2018-10-31,IWM,0.0
+Gradient Boosting Predicted Return,2018-11-30,IWM,0.0
+Gradient Boosting Predicted Return,2018-12-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2019-01-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2019-02-28,IWM,0.0
+Gradient Boosting Predicted Return,2019-04-30,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2019-05-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2019-07-31,IWM,0.0
+Gradient Boosting Predicted Return,2019-09-30,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2019-10-31,IWM,0.0
+Gradient Boosting Predicted Return,2019-12-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-01-31,IWM,0.0
+Gradient Boosting Predicted Return,2020-03-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-04-30,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-06-30,IWM,0.0
+Gradient Boosting Predicted Return,2020-07-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-08-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-09-30,IWM,0.0
+Gradient Boosting Predicted Return,2020-11-30,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-12-31,IWM,0.0
+Gradient Boosting Predicted Return,2021-03-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2021-04-30,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2021-06-30,IWM,0.0
+Gradient Boosting Predicted Return,2021-08-31,IWM,0.0
+Gradient Boosting Predicted Return,2021-09-30,IWM,0.0
+Gradient Boosting Predicted Return,2021-11-30,IWM,0.0
+Gradient Boosting Predicted Return,2021-12-31,IWM,0.0
+Gradient Boosting Predicted Return,2022-01-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2022-02-28,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2022-03-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2022-05-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2022-06-30,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2022-08-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2022-09-30,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2022-10-31,IWM,0.0
+Gradient Boosting Predicted Return,2022-11-30,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2023-01-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2023-02-28,IWM,0.0
+Gradient Boosting Predicted Return,2023-03-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2023-05-31,IWM,0.0
+Gradient Boosting Predicted Return,2023-06-30,IWM,0.0
+Gradient Boosting Predicted Return,2023-07-31,IWM,0.0
+Gradient Boosting Predicted Return,2023-08-31,IWM,0.0
+Gradient Boosting Predicted Return,2023-10-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2023-11-30,IWM,0.0
+Gradient Boosting Predicted Return,2024-01-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2024-02-29,IWM,0.3333333333333333
 Gradient Boosting Predicted Return,2024-04-30,IWM,0.3333333333333333
 Gradient Boosting Predicted Return,2024-05-31,IWM,0.0
-Gradient Boosting Predicted Return,2024-07-31,IWM,0.0
+Gradient Boosting Predicted Return,2024-07-31,IWM,0.3333333333333333
 Gradient Boosting Predicted Return,2024-09-30,IWM,0.3333333333333333
-Gradient Boosting Predicted Return,2024-10-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2024-10-31,IWM,0.0
 Gradient Boosting Predicted Return,2024-12-31,IWM,0.3333333333333333
-Gradient Boosting Predicted Return,2025-01-31,IWM,0.0
+Gradient Boosting Predicted Return,2025-01-31,IWM,0.3333333333333333
 Gradient Boosting Predicted Return,2025-02-28,IWM,0.0
-Gradient Boosting Predicted Return,2025-03-31,IWM,0.0
+Gradient Boosting Predicted Return,2025-03-31,IWM,0.3333333333333333
 Gradient Boosting Predicted Return,2025-04-30,IWM,0.0
 Gradient Boosting Predicted Return,2025-06-30,IWM,0.0
 Gradient Boosting Predicted Return,2025-07-31,IWM,0.0
 Gradient Boosting Predicted Return,2025-09-30,IWM,0.3333333333333333
-Gradient Boosting Predicted Return,2025-10-31,IWM,0.0
+Gradient Boosting Predicted Return,2025-10-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2025-12-31,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2026-03-31,IWM,0.0
+Gradient Boosting Predicted Return,2026-04-30,IWM,0.0
+Gradient Boosting Predicted Return,2016-02-29,EFA,0.0
+Gradient Boosting Predicted Return,2016-03-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2016-05-31,EFA,0.0
+Gradient Boosting Predicted Return,2016-06-30,EFA,0.0
+Gradient Boosting Predicted Return,2016-08-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2016-09-30,EFA,0.0
+Gradient Boosting Predicted Return,2016-10-31,EFA,0.0
+Gradient Boosting Predicted Return,2016-11-30,EFA,0.0
+Gradient Boosting Predicted Return,2017-01-31,EFA,0.0
+Gradient Boosting Predicted Return,2017-02-28,EFA,0.0
+Gradient Boosting Predicted Return,2017-03-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2017-05-31,EFA,0.0
+Gradient Boosting Predicted Return,2017-06-30,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2017-07-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2017-08-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2017-10-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2017-11-30,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2018-01-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2018-02-28,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2018-04-30,EFA,0.0
+Gradient Boosting Predicted Return,2018-05-31,EFA,0.0
+Gradient Boosting Predicted Return,2018-07-31,EFA,0.0
+Gradient Boosting Predicted Return,2018-08-31,EFA,0.0
+Gradient Boosting Predicted Return,2018-10-31,EFA,0.0
+Gradient Boosting Predicted Return,2018-11-30,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2018-12-31,EFA,0.0
+Gradient Boosting Predicted Return,2019-01-31,EFA,0.0
+Gradient Boosting Predicted Return,2019-02-28,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2019-04-30,EFA,0.0
+Gradient Boosting Predicted Return,2019-05-31,EFA,0.0
+Gradient Boosting Predicted Return,2019-07-31,EFA,0.0
+Gradient Boosting Predicted Return,2019-09-30,EFA,0.0
+Gradient Boosting Predicted Return,2019-10-31,EFA,0.0
+Gradient Boosting Predicted Return,2019-12-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2020-01-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2020-03-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2020-04-30,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2020-06-30,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2020-07-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2020-08-31,EFA,0.0
+Gradient Boosting Predicted Return,2020-09-30,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2020-11-30,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2020-12-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2021-03-31,EFA,0.0
+Gradient Boosting Predicted Return,2021-04-30,EFA,0.0
+Gradient Boosting Predicted Return,2021-06-30,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2021-08-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2021-09-30,EFA,0.0
+Gradient Boosting Predicted Return,2021-11-30,EFA,0.0
+Gradient Boosting Predicted Return,2021-12-31,EFA,0.0
+Gradient Boosting Predicted Return,2022-01-31,EFA,0.0
+Gradient Boosting Predicted Return,2022-02-28,EFA,0.0
+Gradient Boosting Predicted Return,2022-03-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2022-05-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2022-06-30,EFA,0.0
+Gradient Boosting Predicted Return,2022-08-31,EFA,0.0
+Gradient Boosting Predicted Return,2022-09-30,EFA,0.0
+Gradient Boosting Predicted Return,2022-10-31,EFA,0.0
+Gradient Boosting Predicted Return,2022-11-30,EFA,0.0
+Gradient Boosting Predicted Return,2023-01-31,EFA,0.0
+Gradient Boosting Predicted Return,2023-02-28,EFA,0.0
+Gradient Boosting Predicted Return,2023-03-31,EFA,0.0
+Gradient Boosting Predicted Return,2023-05-31,EFA,0.0
+Gradient Boosting Predicted Return,2023-06-30,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2023-07-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2023-08-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2023-10-31,EFA,0.0
+Gradient Boosting Predicted Return,2023-11-30,EFA,0.3333333333333333
 Gradient Boosting Predicted Return,2024-01-31,EFA,0.0
 Gradient Boosting Predicted Return,2024-02-29,EFA,0.3333333333333333
 Gradient Boosting Predicted Return,2024-04-30,EFA,0.0
-Gradient Boosting Predicted Return,2024-05-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2024-05-31,EFA,0.0
 Gradient Boosting Predicted Return,2024-07-31,EFA,0.3333333333333333
 Gradient Boosting Predicted Return,2024-09-30,EFA,0.0
-Gradient Boosting Predicted Return,2024-10-31,EFA,0.0
-Gradient Boosting Predicted Return,2024-12-31,EFA,0.3333333333333333
-Gradient Boosting Predicted Return,2025-01-31,EFA,0.3333333333333333
-Gradient Boosting Predicted Return,2025-02-28,EFA,0.3333333333333333
-Gradient Boosting Predicted Return,2025-03-31,EFA,0.3333333333333333
-Gradient Boosting Predicted Return,2025-04-30,EFA,0.0
-Gradient Boosting Predicted Return,2025-06-30,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2024-10-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2024-12-31,EFA,0.0
+Gradient Boosting Predicted Return,2025-01-31,EFA,0.0
+Gradient Boosting Predicted Return,2025-02-28,EFA,0.0
+Gradient Boosting Predicted Return,2025-03-31,EFA,0.0
+Gradient Boosting Predicted Return,2025-04-30,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2025-06-30,EFA,0.0
 Gradient Boosting Predicted Return,2025-07-31,EFA,0.3333333333333333
 Gradient Boosting Predicted Return,2025-09-30,EFA,0.3333333333333333
 Gradient Boosting Predicted Return,2025-10-31,EFA,0.3333333333333333
-Gradient Boosting Predicted Return,2024-01-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2025-12-31,EFA,0.0
+Gradient Boosting Predicted Return,2026-03-31,EFA,0.0
+Gradient Boosting Predicted Return,2026-04-30,EFA,0.0
+Gradient Boosting Predicted Return,2016-02-29,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2016-03-31,EEM,0.0
+Gradient Boosting Predicted Return,2016-05-31,EEM,0.0
+Gradient Boosting Predicted Return,2016-06-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2016-08-31,EEM,0.0
+Gradient Boosting Predicted Return,2016-09-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2016-10-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2016-11-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2017-01-31,EEM,0.0
+Gradient Boosting Predicted Return,2017-02-28,EEM,0.0
+Gradient Boosting Predicted Return,2017-03-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2017-05-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2017-06-30,EEM,0.0
+Gradient Boosting Predicted Return,2017-07-31,EEM,0.0
+Gradient Boosting Predicted Return,2017-08-31,EEM,0.0
+Gradient Boosting Predicted Return,2017-10-31,EEM,0.0
+Gradient Boosting Predicted Return,2017-11-30,EEM,0.0
+Gradient Boosting Predicted Return,2018-01-31,EEM,0.0
+Gradient Boosting Predicted Return,2018-02-28,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2018-04-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2018-05-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2018-07-31,EEM,0.0
+Gradient Boosting Predicted Return,2018-08-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2018-10-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2018-11-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2018-12-31,EEM,0.0
+Gradient Boosting Predicted Return,2019-01-31,EEM,0.0
+Gradient Boosting Predicted Return,2019-02-28,EEM,0.0
+Gradient Boosting Predicted Return,2019-04-30,EEM,0.0
+Gradient Boosting Predicted Return,2019-05-31,EEM,0.0
+Gradient Boosting Predicted Return,2019-07-31,EEM,0.0
+Gradient Boosting Predicted Return,2019-09-30,EEM,0.0
+Gradient Boosting Predicted Return,2019-10-31,EEM,0.0
+Gradient Boosting Predicted Return,2019-12-31,EEM,0.0
+Gradient Boosting Predicted Return,2020-01-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-03-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-04-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-06-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-07-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-08-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-09-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2020-11-30,EEM,0.0
+Gradient Boosting Predicted Return,2020-12-31,EEM,0.0
+Gradient Boosting Predicted Return,2021-03-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2021-04-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2021-06-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2021-08-31,EEM,0.0
+Gradient Boosting Predicted Return,2021-09-30,EEM,0.0
+Gradient Boosting Predicted Return,2021-11-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2021-12-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2022-01-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2022-02-28,EEM,0.0
+Gradient Boosting Predicted Return,2022-03-31,EEM,0.0
+Gradient Boosting Predicted Return,2022-05-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2022-06-30,EEM,0.0
+Gradient Boosting Predicted Return,2022-08-31,EEM,0.0
+Gradient Boosting Predicted Return,2022-09-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2022-10-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2022-11-30,EEM,0.0
+Gradient Boosting Predicted Return,2023-01-31,EEM,0.0
+Gradient Boosting Predicted Return,2023-02-28,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2023-03-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2023-05-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2023-06-30,EEM,0.0
+Gradient Boosting Predicted Return,2023-07-31,EEM,0.0
+Gradient Boosting Predicted Return,2023-08-31,EEM,0.0
+Gradient Boosting Predicted Return,2023-10-31,EEM,0.0
+Gradient Boosting Predicted Return,2023-11-30,EEM,0.0
+Gradient Boosting Predicted Return,2024-01-31,EEM,0.0
 Gradient Boosting Predicted Return,2024-02-29,EEM,0.0
-Gradient Boosting Predicted Return,2024-04-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2024-04-30,EEM,0.0
 Gradient Boosting Predicted Return,2024-05-31,EEM,0.3333333333333333
 Gradient Boosting Predicted Return,2024-07-31,EEM,0.3333333333333333
 Gradient Boosting Predicted Return,2024-09-30,EEM,0.0
@@ -424,11 +2267,82 @@ Gradient Boosting Predicted Return,2024-12-31,EEM,0.0
 Gradient Boosting Predicted Return,2025-01-31,EEM,0.0
 Gradient Boosting Predicted Return,2025-02-28,EEM,0.0
 Gradient Boosting Predicted Return,2025-03-31,EEM,0.0
-Gradient Boosting Predicted Return,2025-04-30,EEM,0.0
-Gradient Boosting Predicted Return,2025-06-30,EEM,0.0
-Gradient Boosting Predicted Return,2025-07-31,EEM,0.0
-Gradient Boosting Predicted Return,2025-09-30,EEM,0.0
+Gradient Boosting Predicted Return,2025-04-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2025-06-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2025-07-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2025-09-30,EEM,0.3333333333333333
 Gradient Boosting Predicted Return,2025-10-31,EEM,0.0
+Gradient Boosting Predicted Return,2025-12-31,EEM,0.0
+Gradient Boosting Predicted Return,2026-03-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2026-04-30,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2016-02-29,TLT,0.0
+Gradient Boosting Predicted Return,2016-03-31,TLT,0.0
+Gradient Boosting Predicted Return,2016-05-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2016-06-30,TLT,0.0
+Gradient Boosting Predicted Return,2016-08-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2016-09-30,TLT,0.0
+Gradient Boosting Predicted Return,2016-10-31,TLT,0.0
+Gradient Boosting Predicted Return,2016-11-30,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2017-01-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2017-02-28,TLT,0.0
+Gradient Boosting Predicted Return,2017-03-31,TLT,0.0
+Gradient Boosting Predicted Return,2017-05-31,TLT,0.0
+Gradient Boosting Predicted Return,2017-06-30,TLT,0.0
+Gradient Boosting Predicted Return,2017-07-31,TLT,0.0
+Gradient Boosting Predicted Return,2017-08-31,TLT,0.0
+Gradient Boosting Predicted Return,2017-10-31,TLT,0.0
+Gradient Boosting Predicted Return,2017-11-30,TLT,0.0
+Gradient Boosting Predicted Return,2018-01-31,TLT,0.0
+Gradient Boosting Predicted Return,2018-02-28,TLT,0.0
+Gradient Boosting Predicted Return,2018-04-30,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2018-05-31,TLT,0.0
+Gradient Boosting Predicted Return,2018-07-31,TLT,0.0
+Gradient Boosting Predicted Return,2018-08-31,TLT,0.0
+Gradient Boosting Predicted Return,2018-10-31,TLT,0.0
+Gradient Boosting Predicted Return,2018-11-30,TLT,0.0
+Gradient Boosting Predicted Return,2018-12-31,TLT,0.0
+Gradient Boosting Predicted Return,2019-01-31,TLT,0.0
+Gradient Boosting Predicted Return,2019-02-28,TLT,0.0
+Gradient Boosting Predicted Return,2019-04-30,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2019-05-31,TLT,0.0
+Gradient Boosting Predicted Return,2019-07-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2019-09-30,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2019-10-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2019-12-31,TLT,0.0
+Gradient Boosting Predicted Return,2020-01-31,TLT,0.0
+Gradient Boosting Predicted Return,2020-03-31,TLT,0.0
+Gradient Boosting Predicted Return,2020-04-30,TLT,0.0
+Gradient Boosting Predicted Return,2020-06-30,TLT,0.0
+Gradient Boosting Predicted Return,2020-07-31,TLT,0.0
+Gradient Boosting Predicted Return,2020-08-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2020-09-30,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2020-11-30,TLT,0.0
+Gradient Boosting Predicted Return,2020-12-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2021-03-31,TLT,0.0
+Gradient Boosting Predicted Return,2021-04-30,TLT,0.0
+Gradient Boosting Predicted Return,2021-06-30,TLT,0.0
+Gradient Boosting Predicted Return,2021-08-31,TLT,0.0
+Gradient Boosting Predicted Return,2021-09-30,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2021-11-30,TLT,0.0
+Gradient Boosting Predicted Return,2021-12-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2022-01-31,TLT,0.0
+Gradient Boosting Predicted Return,2022-02-28,TLT,0.0
+Gradient Boosting Predicted Return,2022-03-31,TLT,0.0
+Gradient Boosting Predicted Return,2022-05-31,TLT,0.0
+Gradient Boosting Predicted Return,2022-06-30,TLT,0.0
+Gradient Boosting Predicted Return,2022-08-31,TLT,0.0
+Gradient Boosting Predicted Return,2022-09-30,TLT,0.0
+Gradient Boosting Predicted Return,2022-10-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2022-11-30,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2023-01-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2023-02-28,TLT,0.0
+Gradient Boosting Predicted Return,2023-03-31,TLT,0.0
+Gradient Boosting Predicted Return,2023-05-31,TLT,0.0
+Gradient Boosting Predicted Return,2023-06-30,TLT,0.0
+Gradient Boosting Predicted Return,2023-07-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2023-08-31,TLT,0.0
+Gradient Boosting Predicted Return,2023-10-31,TLT,0.0
+Gradient Boosting Predicted Return,2023-11-30,TLT,0.0
 Gradient Boosting Predicted Return,2024-01-31,TLT,0.0
 Gradient Boosting Predicted Return,2024-02-29,TLT,0.0
 Gradient Boosting Predicted Return,2024-04-30,TLT,0.0
@@ -436,28 +2350,102 @@ Gradient Boosting Predicted Return,2024-05-31,TLT,0.0
 Gradient Boosting Predicted Return,2024-07-31,TLT,0.0
 Gradient Boosting Predicted Return,2024-09-30,TLT,0.0
 Gradient Boosting Predicted Return,2024-10-31,TLT,0.3333333333333333
-Gradient Boosting Predicted Return,2024-12-31,TLT,0.0
+Gradient Boosting Predicted Return,2024-12-31,TLT,0.3333333333333333
 Gradient Boosting Predicted Return,2025-01-31,TLT,0.0
-Gradient Boosting Predicted Return,2025-02-28,TLT,0.3333333333333333
-Gradient Boosting Predicted Return,2025-03-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2025-02-28,TLT,0.0
+Gradient Boosting Predicted Return,2025-03-31,TLT,0.0
 Gradient Boosting Predicted Return,2025-04-30,TLT,0.3333333333333333
 Gradient Boosting Predicted Return,2025-06-30,TLT,0.0
-Gradient Boosting Predicted Return,2025-07-31,TLT,0.3333333333333333
-Gradient Boosting Predicted Return,2025-09-30,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2025-07-31,TLT,0.0
+Gradient Boosting Predicted Return,2025-09-30,TLT,0.0
 Gradient Boosting Predicted Return,2025-10-31,TLT,0.3333333333333333
-Gradient Boosting Predicted Return,2024-01-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2025-12-31,TLT,0.0
+Gradient Boosting Predicted Return,2026-03-31,TLT,0.3333333333333333
+Gradient Boosting Predicted Return,2026-04-30,TLT,0.0
+Gradient Boosting Predicted Return,2016-02-29,GLD,0.0
+Gradient Boosting Predicted Return,2016-03-31,GLD,0.0
+Gradient Boosting Predicted Return,2016-05-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2016-06-30,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2016-08-31,GLD,0.0
+Gradient Boosting Predicted Return,2016-09-30,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2016-10-31,GLD,0.0
+Gradient Boosting Predicted Return,2016-11-30,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2017-01-31,GLD,0.0
+Gradient Boosting Predicted Return,2017-02-28,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2017-03-31,GLD,0.0
+Gradient Boosting Predicted Return,2017-05-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2017-06-30,GLD,0.0
+Gradient Boosting Predicted Return,2017-07-31,GLD,0.0
+Gradient Boosting Predicted Return,2017-08-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2017-10-31,GLD,0.0
+Gradient Boosting Predicted Return,2017-11-30,GLD,0.0
+Gradient Boosting Predicted Return,2018-01-31,GLD,0.0
+Gradient Boosting Predicted Return,2018-02-28,GLD,0.0
+Gradient Boosting Predicted Return,2018-04-30,GLD,0.0
+Gradient Boosting Predicted Return,2018-05-31,GLD,0.0
+Gradient Boosting Predicted Return,2018-07-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2018-08-31,GLD,0.0
+Gradient Boosting Predicted Return,2018-10-31,GLD,0.0
+Gradient Boosting Predicted Return,2018-11-30,GLD,0.0
+Gradient Boosting Predicted Return,2018-12-31,GLD,0.0
+Gradient Boosting Predicted Return,2019-01-31,GLD,0.0
+Gradient Boosting Predicted Return,2019-02-28,GLD,0.0
+Gradient Boosting Predicted Return,2019-04-30,GLD,0.0
+Gradient Boosting Predicted Return,2019-05-31,GLD,0.0
+Gradient Boosting Predicted Return,2019-07-31,GLD,0.0
+Gradient Boosting Predicted Return,2019-09-30,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2019-10-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2019-12-31,GLD,0.0
+Gradient Boosting Predicted Return,2020-01-31,GLD,0.0
+Gradient Boosting Predicted Return,2020-03-31,GLD,0.0
+Gradient Boosting Predicted Return,2020-04-30,GLD,0.0
+Gradient Boosting Predicted Return,2020-06-30,GLD,0.0
+Gradient Boosting Predicted Return,2020-07-31,GLD,0.0
+Gradient Boosting Predicted Return,2020-08-31,GLD,0.0
+Gradient Boosting Predicted Return,2020-09-30,GLD,0.0
+Gradient Boosting Predicted Return,2020-11-30,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2020-12-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2021-03-31,GLD,0.0
+Gradient Boosting Predicted Return,2021-04-30,GLD,0.0
+Gradient Boosting Predicted Return,2021-06-30,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2021-08-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2021-09-30,GLD,0.0
+Gradient Boosting Predicted Return,2021-11-30,GLD,0.0
+Gradient Boosting Predicted Return,2021-12-31,GLD,0.0
+Gradient Boosting Predicted Return,2022-01-31,GLD,0.0
+Gradient Boosting Predicted Return,2022-02-28,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2022-03-31,GLD,0.0
+Gradient Boosting Predicted Return,2022-05-31,GLD,0.0
+Gradient Boosting Predicted Return,2022-06-30,GLD,0.0
+Gradient Boosting Predicted Return,2022-08-31,GLD,0.0
+Gradient Boosting Predicted Return,2022-09-30,GLD,0.0
+Gradient Boosting Predicted Return,2022-10-31,GLD,0.0
+Gradient Boosting Predicted Return,2022-11-30,GLD,0.0
+Gradient Boosting Predicted Return,2023-01-31,GLD,0.0
+Gradient Boosting Predicted Return,2023-02-28,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2023-03-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2023-05-31,GLD,0.0
+Gradient Boosting Predicted Return,2023-06-30,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2023-07-31,GLD,0.0
+Gradient Boosting Predicted Return,2023-08-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2023-10-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2023-11-30,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2024-01-31,GLD,0.0
 Gradient Boosting Predicted Return,2024-02-29,GLD,0.0
-Gradient Boosting Predicted Return,2024-04-30,GLD,0.3333333333333333
-Gradient Boosting Predicted Return,2024-05-31,GLD,0.0
+Gradient Boosting Predicted Return,2024-04-30,GLD,0.0
+Gradient Boosting Predicted Return,2024-05-31,GLD,0.3333333333333333
 Gradient Boosting Predicted Return,2024-07-31,GLD,0.0
 Gradient Boosting Predicted Return,2024-09-30,GLD,0.0
 Gradient Boosting Predicted Return,2024-10-31,GLD,0.0
 Gradient Boosting Predicted Return,2024-12-31,GLD,0.0
 Gradient Boosting Predicted Return,2025-01-31,GLD,0.3333333333333333
 Gradient Boosting Predicted Return,2025-02-28,GLD,0.3333333333333333
-Gradient Boosting Predicted Return,2025-03-31,GLD,0.3333333333333333
-Gradient Boosting Predicted Return,2025-04-30,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2025-03-31,GLD,0.0
+Gradient Boosting Predicted Return,2025-04-30,GLD,0.0
 Gradient Boosting Predicted Return,2025-06-30,GLD,0.3333333333333333
-Gradient Boosting Predicted Return,2025-07-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2025-07-31,GLD,0.0
 Gradient Boosting Predicted Return,2025-09-30,GLD,0.0
 Gradient Boosting Predicted Return,2025-10-31,GLD,0.0
+Gradient Boosting Predicted Return,2025-12-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2026-03-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2026-04-30,GLD,0.3333333333333333

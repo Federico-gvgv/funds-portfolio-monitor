@@ -8,7 +8,7 @@ This project treats ETF allocation as a walk-forward portfolio construction prob
 
 The main universe is: SPY, QQQ, IWM, EFA, EEM, TLT, GLD. Prices are adjusted close series where available, loaded from `data/raw/prices.csv` or downloaded with `yfinance`.
 
-Generated results use price data from `2020-12-07` to `2025-12-05`. Reported metrics are computed on the common aligned evaluation period from `2024-02-01` to `2025-11-28`.
+Generated results use price data from `2010-01-04` to `2026-07-07`. Reported metrics are computed on the common aligned evaluation period from `2016-03-01` to `2026-05-29`.
 
 ## Methodology
 
@@ -48,12 +48,12 @@ Initial allocation turnover is reported separately from average recurring turnov
 
 | strategy | cumulative_return | cagr | annualized_volatility | sharpe_ratio | sortino_ratio | max_drawdown | calmar_ratio | hit_rate | average_turnover | initial_turnover | final_equity |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SPY Buy & Hold | 0.3721 | 0.2705 | 0.1827 | 1.4013 | 1.7714 | -0.1876 | 1.4422 | 0.5946 | 0.0 | 0.5 | 1.3721 |
-| Equal Weight Universe | 0.3195 | 0.2335 | 0.1364 | 1.607 | 2.2458 | -0.1276 | 1.8303 | 0.5916 | 0.0 | 0.5 | 1.3195 |
-| Top-k Momentum | 0.4092 | 0.2964 | 0.1463 | 1.8484 | 2.5383 | -0.139 | 2.1317 | 0.5646 | 0.1111 | 0.5 | 1.4092 |
-| Top-k Vol-Adjusted Momentum | 0.3741 | 0.2719 | 0.1454 | 1.7273 | 2.3666 | -0.1366 | 1.9905 | 0.5736 | 0.2222 | 0.5 | 1.3741 |
-| Ridge Predicted Return | 0.3431 | 0.2501 | 0.1487 | 1.5754 | 2.1802 | -0.1335 | 1.8733 | 0.5826 | 0.2444 | 0.5 | 1.3431 |
-| Gradient Boosting Predicted Return | 0.3917 | 0.2842 | 0.1186 | 2.1682 | 3.1529 | -0.0787 | 3.6129 | 0.5646 | 0.4444 | 0.5 | 1.3917 |
+| SPY Buy & Hold | 2.3661 | 0.1841 | 0.1662 | 1.1003 | 1.4295 | -0.2318 | 0.7941 | 0.5586 | 0.0 | 0.5 | 3.3661 |
+| Equal Weight Universe | 1.7403 | 0.1507 | 0.1287 | 1.1552 | 1.6565 | -0.2267 | 0.6647 | 0.563 | 0.0 | 0.5 | 2.7403 |
+| Top-k Momentum | 2.0394 | 0.1674 | 0.1448 | 1.1414 | 1.5477 | -0.2417 | 0.6926 | 0.5552 | 0.1938 | 0.5 | 3.0394 |
+| Top-k Vol-Adjusted Momentum | 1.6648 | 0.1462 | 0.1441 | 1.0193 | 1.372 | -0.2316 | 0.6312 | 0.5503 | 0.2481 | 0.5 | 2.6648 |
+| Ridge Predicted Return | 1.3518 | 0.1264 | 0.1687 | 0.7899 | 1.08 | -0.2777 | 0.4553 | 0.5448 | 0.3876 | 0.5 | 2.3518 |
+| Gradient Boosting Predicted Return | 1.729 | 0.15 | 0.1604 | 0.9514 | 1.2942 | -0.2145 | 0.6992 | 0.5486 | 0.4806 | 0.5 | 2.729 |
 
 ## Limitations
 

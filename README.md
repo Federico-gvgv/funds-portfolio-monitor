@@ -8,7 +8,7 @@ This project treats ETF allocation as a walk-forward portfolio construction prob
 
 The workflow builds trailing momentum, volatility, trend, and drawdown features, then ranks or predicts next 21-trading-day returns across the ETF universe. Portfolios are rebalanced monthly, evaluated after transaction costs, and compared against transparent allocation baselines.
 
-Generated results record both the actual price-data period and the aligned evaluation period used for metrics. The current generated artifacts use price data from `2020-12-07` to `2025-12-05`, with reported metrics aligned on `2024-02-01` to `2025-11-28`. The current bundled `data/raw/prices.csv` starts after the configured `2010-01-01` start date, so the run script warns clearly and attempts a `yfinance` refresh before continuing with local data if refresh is unavailable.
+Generated results record both the actual price-data period and the aligned evaluation period used for metrics. The current generated artifacts use price data from `2010-01-04` to `2026-07-07`, with reported metrics aligned on `2016-03-01` to `2026-05-29`. If local prices are missing or start materially later than the configured start date, the run script attempts a `yfinance` refresh; if internet is unavailable, it warns clearly and continues with the bundled local data.
 
 An archived version of the earlier experimental workflow is kept in `legacy/lstm_price_forecaster/` for reference.
 
@@ -74,7 +74,7 @@ python scripts/generate_report.py
 pytest
 ```
 
-The backtest first looks for `data/raw/prices.csv`. If it is missing, it can assemble prices from legacy per-ticker CSV files in `data/`; if those are missing, it downloads adjusted close data with `yfinance`.
+The backtest first looks for `data/raw/prices.csv`. If it is missing, it can assemble prices from legacy per-ticker CSV files in `data/`; if those are missing, it downloads adjusted close data with `yfinance`. If the local file exists but starts more than 30 calendar days after `configs/backtest.yaml` `data.start_date`, the script warns and tries to refresh it with `yfinance`; when internet access is unavailable, the project still runs using the bundled local data.
 
 ## Example output files
 
