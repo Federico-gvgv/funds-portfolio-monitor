@@ -264,7 +264,7 @@ Ridge Predicted Return,2024-12-31,QQQ,0.0
 Ridge Predicted Return,2025-01-31,QQQ,0.0
 Ridge Predicted Return,2025-02-28,QQQ,0.0
 Ridge Predicted Return,2025-03-31,QQQ,0.3333333333333333
-Ridge Predicted Return,2025-04-30,QQQ,0.3333333333333333
+Ridge Predicted Return,2025-04-30,QQQ,0.0
 Ridge Predicted Return,2025-06-30,QQQ,0.0
 Ridge Predicted Return,2025-07-31,QQQ,0.0
 Ridge Predicted Return,2025-09-30,QQQ,0.3333333333333333
@@ -305,7 +305,7 @@ Ridge Predicted Return,2024-01-31,EEM,0.0
 Ridge Predicted Return,2024-02-29,EEM,0.0
 Ridge Predicted Return,2024-04-30,EEM,0.0
 Ridge Predicted Return,2024-05-31,EEM,0.0
-Ridge Predicted Return,2024-07-31,EEM,0.3333333333333333
+Ridge Predicted Return,2024-07-31,EEM,0.0
 Ridge Predicted Return,2024-09-30,EEM,0.0
 Ridge Predicted Return,2024-10-31,EEM,0.0
 Ridge Predicted Return,2024-12-31,EEM,0.3333333333333333
@@ -313,7 +313,7 @@ Ridge Predicted Return,2025-01-31,EEM,0.3333333333333333
 Ridge Predicted Return,2025-02-28,EEM,0.0
 Ridge Predicted Return,2025-03-31,EEM,0.0
 Ridge Predicted Return,2025-04-30,EEM,0.0
-Ridge Predicted Return,2025-06-30,EEM,0.3333333333333333
+Ridge Predicted Return,2025-06-30,EEM,0.0
 Ridge Predicted Return,2025-07-31,EEM,0.3333333333333333
 Ridge Predicted Return,2025-09-30,EEM,0.3333333333333333
 Ridge Predicted Return,2025-10-31,EEM,0.3333333333333333
@@ -328,8 +328,8 @@ Ridge Predicted Return,2024-12-31,TLT,0.3333333333333333
 Ridge Predicted Return,2025-01-31,TLT,0.0
 Ridge Predicted Return,2025-02-28,TLT,0.0
 Ridge Predicted Return,2025-03-31,TLT,0.0
-Ridge Predicted Return,2025-04-30,TLT,0.0
-Ridge Predicted Return,2025-06-30,TLT,0.0
+Ridge Predicted Return,2025-04-30,TLT,0.3333333333333333
+Ridge Predicted Return,2025-06-30,TLT,0.3333333333333333
 Ridge Predicted Return,2025-07-31,TLT,0.0
 Ridge Predicted Return,2025-09-30,TLT,0.0
 Ridge Predicted Return,2025-10-31,TLT,0.0
@@ -337,7 +337,7 @@ Ridge Predicted Return,2024-01-31,GLD,0.3333333333333333
 Ridge Predicted Return,2024-02-29,GLD,0.0
 Ridge Predicted Return,2024-04-30,GLD,0.0
 Ridge Predicted Return,2024-05-31,GLD,0.3333333333333333
-Ridge Predicted Return,2024-07-31,GLD,0.0
+Ridge Predicted Return,2024-07-31,GLD,0.3333333333333333
 Ridge Predicted Return,2024-09-30,GLD,0.3333333333333333
 Ridge Predicted Return,2024-10-31,GLD,0.3333333333333333
 Ridge Predicted Return,2024-12-31,GLD,0.3333333333333333
@@ -350,30 +350,30 @@ Ridge Predicted Return,2025-07-31,GLD,0.3333333333333333
 Ridge Predicted Return,2025-09-30,GLD,0.3333333333333333
 Ridge Predicted Return,2025-10-31,GLD,0.3333333333333333
 Gradient Boosting Predicted Return,2024-01-31,SPY,0.0
-Gradient Boosting Predicted Return,2024-02-29,SPY,0.0
-Gradient Boosting Predicted Return,2024-04-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2024-02-29,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2024-04-30,SPY,0.0
 Gradient Boosting Predicted Return,2024-05-31,SPY,0.3333333333333333
 Gradient Boosting Predicted Return,2024-07-31,SPY,0.3333333333333333
 Gradient Boosting Predicted Return,2024-09-30,SPY,0.3333333333333333
 Gradient Boosting Predicted Return,2024-10-31,SPY,0.3333333333333333
-Gradient Boosting Predicted Return,2024-12-31,SPY,0.0
+Gradient Boosting Predicted Return,2024-12-31,SPY,0.3333333333333333
 Gradient Boosting Predicted Return,2025-01-31,SPY,0.0
 Gradient Boosting Predicted Return,2025-02-28,SPY,0.0
 Gradient Boosting Predicted Return,2025-03-31,SPY,0.0
-Gradient Boosting Predicted Return,2025-04-30,SPY,0.3333333333333333
+Gradient Boosting Predicted Return,2025-04-30,SPY,0.0
 Gradient Boosting Predicted Return,2025-06-30,SPY,0.3333333333333333
 Gradient Boosting Predicted Return,2025-07-31,SPY,0.0
 Gradient Boosting Predicted Return,2025-09-30,SPY,0.0
 Gradient Boosting Predicted Return,2025-10-31,SPY,0.3333333333333333
 Gradient Boosting Predicted Return,2024-01-31,QQQ,0.3333333333333333
 Gradient Boosting Predicted Return,2024-02-29,QQQ,0.3333333333333333
-Gradient Boosting Predicted Return,2024-04-30,QQQ,0.3333333333333333
+Gradient Boosting Predicted Return,2024-04-30,QQQ,0.0
 Gradient Boosting Predicted Return,2024-05-31,QQQ,0.0
 Gradient Boosting Predicted Return,2024-07-31,QQQ,0.0
 Gradient Boosting Predicted Return,2024-09-30,QQQ,0.3333333333333333
 Gradient Boosting Predicted Return,2024-10-31,QQQ,0.0
 Gradient Boosting Predicted Return,2024-12-31,QQQ,0.0
-Gradient Boosting Predicted Return,2025-01-31,QQQ,0.0
+Gradient Boosting Predicted Return,2025-01-31,QQQ,0.3333333333333333
 Gradient Boosting Predicted Return,2025-02-28,QQQ,0.0
 Gradient Boosting Predicted Return,2025-03-31,QQQ,0.0
 Gradient Boosting Predicted Return,2025-04-30,QQQ,0.3333333333333333
@@ -383,7 +383,7 @@ Gradient Boosting Predicted Return,2025-09-30,QQQ,0.0
 Gradient Boosting Predicted Return,2025-10-31,QQQ,0.0
 Gradient Boosting Predicted Return,2024-01-31,IWM,0.0
 Gradient Boosting Predicted Return,2024-02-29,IWM,0.0
-Gradient Boosting Predicted Return,2024-04-30,IWM,0.0
+Gradient Boosting Predicted Return,2024-04-30,IWM,0.3333333333333333
 Gradient Boosting Predicted Return,2024-05-31,IWM,0.0
 Gradient Boosting Predicted Return,2024-07-31,IWM,0.0
 Gradient Boosting Predicted Return,2024-09-30,IWM,0.3333333333333333
@@ -392,14 +392,14 @@ Gradient Boosting Predicted Return,2024-12-31,IWM,0.3333333333333333
 Gradient Boosting Predicted Return,2025-01-31,IWM,0.0
 Gradient Boosting Predicted Return,2025-02-28,IWM,0.0
 Gradient Boosting Predicted Return,2025-03-31,IWM,0.0
-Gradient Boosting Predicted Return,2025-04-30,IWM,0.3333333333333333
+Gradient Boosting Predicted Return,2025-04-30,IWM,0.0
 Gradient Boosting Predicted Return,2025-06-30,IWM,0.0
 Gradient Boosting Predicted Return,2025-07-31,IWM,0.0
-Gradient Boosting Predicted Return,2025-09-30,IWM,0.0
+Gradient Boosting Predicted Return,2025-09-30,IWM,0.3333333333333333
 Gradient Boosting Predicted Return,2025-10-31,IWM,0.0
-Gradient Boosting Predicted Return,2024-01-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2024-01-31,EFA,0.0
 Gradient Boosting Predicted Return,2024-02-29,EFA,0.3333333333333333
-Gradient Boosting Predicted Return,2024-04-30,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2024-04-30,EFA,0.0
 Gradient Boosting Predicted Return,2024-05-31,EFA,0.3333333333333333
 Gradient Boosting Predicted Return,2024-07-31,EFA,0.3333333333333333
 Gradient Boosting Predicted Return,2024-09-30,EFA,0.0
@@ -412,16 +412,16 @@ Gradient Boosting Predicted Return,2025-04-30,EFA,0.0
 Gradient Boosting Predicted Return,2025-06-30,EFA,0.3333333333333333
 Gradient Boosting Predicted Return,2025-07-31,EFA,0.3333333333333333
 Gradient Boosting Predicted Return,2025-09-30,EFA,0.3333333333333333
-Gradient Boosting Predicted Return,2025-10-31,EFA,0.0
-Gradient Boosting Predicted Return,2024-01-31,EEM,0.0
+Gradient Boosting Predicted Return,2025-10-31,EFA,0.3333333333333333
+Gradient Boosting Predicted Return,2024-01-31,EEM,0.3333333333333333
 Gradient Boosting Predicted Return,2024-02-29,EEM,0.0
-Gradient Boosting Predicted Return,2024-04-30,EEM,0.0
+Gradient Boosting Predicted Return,2024-04-30,EEM,0.3333333333333333
 Gradient Boosting Predicted Return,2024-05-31,EEM,0.3333333333333333
 Gradient Boosting Predicted Return,2024-07-31,EEM,0.3333333333333333
 Gradient Boosting Predicted Return,2024-09-30,EEM,0.0
 Gradient Boosting Predicted Return,2024-10-31,EEM,0.0
 Gradient Boosting Predicted Return,2024-12-31,EEM,0.0
-Gradient Boosting Predicted Return,2025-01-31,EEM,0.3333333333333333
+Gradient Boosting Predicted Return,2025-01-31,EEM,0.0
 Gradient Boosting Predicted Return,2025-02-28,EEM,0.0
 Gradient Boosting Predicted Return,2025-03-31,EEM,0.0
 Gradient Boosting Predicted Return,2025-04-30,EEM,0.0
@@ -440,24 +440,24 @@ Gradient Boosting Predicted Return,2024-12-31,TLT,0.0
 Gradient Boosting Predicted Return,2025-01-31,TLT,0.0
 Gradient Boosting Predicted Return,2025-02-28,TLT,0.3333333333333333
 Gradient Boosting Predicted Return,2025-03-31,TLT,0.3333333333333333
-Gradient Boosting Predicted Return,2025-04-30,TLT,0.0
+Gradient Boosting Predicted Return,2025-04-30,TLT,0.3333333333333333
 Gradient Boosting Predicted Return,2025-06-30,TLT,0.0
 Gradient Boosting Predicted Return,2025-07-31,TLT,0.3333333333333333
 Gradient Boosting Predicted Return,2025-09-30,TLT,0.3333333333333333
 Gradient Boosting Predicted Return,2025-10-31,TLT,0.3333333333333333
 Gradient Boosting Predicted Return,2024-01-31,GLD,0.3333333333333333
-Gradient Boosting Predicted Return,2024-02-29,GLD,0.3333333333333333
-Gradient Boosting Predicted Return,2024-04-30,GLD,0.0
+Gradient Boosting Predicted Return,2024-02-29,GLD,0.0
+Gradient Boosting Predicted Return,2024-04-30,GLD,0.3333333333333333
 Gradient Boosting Predicted Return,2024-05-31,GLD,0.0
 Gradient Boosting Predicted Return,2024-07-31,GLD,0.0
 Gradient Boosting Predicted Return,2024-09-30,GLD,0.0
 Gradient Boosting Predicted Return,2024-10-31,GLD,0.0
-Gradient Boosting Predicted Return,2024-12-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2024-12-31,GLD,0.0
 Gradient Boosting Predicted Return,2025-01-31,GLD,0.3333333333333333
 Gradient Boosting Predicted Return,2025-02-28,GLD,0.3333333333333333
 Gradient Boosting Predicted Return,2025-03-31,GLD,0.3333333333333333
-Gradient Boosting Predicted Return,2025-04-30,GLD,0.0
+Gradient Boosting Predicted Return,2025-04-30,GLD,0.3333333333333333
 Gradient Boosting Predicted Return,2025-06-30,GLD,0.3333333333333333
 Gradient Boosting Predicted Return,2025-07-31,GLD,0.3333333333333333
-Gradient Boosting Predicted Return,2025-09-30,GLD,0.3333333333333333
-Gradient Boosting Predicted Return,2025-10-31,GLD,0.3333333333333333
+Gradient Boosting Predicted Return,2025-09-30,GLD,0.0
+Gradient Boosting Predicted Return,2025-10-31,GLD,0.0

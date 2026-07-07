@@ -16,6 +16,7 @@ class BacktestResult:
     equity: pd.Series
     weights: pd.DataFrame
     turnover: pd.Series
+    initial_turnover: float = 0.0
 
 
 def run_all_strategies(
@@ -23,7 +24,10 @@ def run_all_strategies(
     features: pd.DataFrame,
     config: dict,
 ) -> dict[str, BacktestResult]:
-    backtest_config = config["backtest"]
+    backtest_config = {
+        **config["backtest"],
+        "forward_return_horizon": config["features"]["forward_return_horizon"],
+    }
     random_seed = config.get("models", {}).get("random_seed", 42)
     tickers = list(prices.columns)
     results = {
@@ -88,6 +92,8 @@ def run_model_strategy(
 ) -> BacktestResult:
     returns = prices.pct_change().fillna(0.0)
     tickers = tickers or list(prices.columns)
+    forward_return_horizon = int(backtest_config.get("forward_return_horizon", 21))
+    target_column = f"forward_return_{forward_return_horizon}"
     rebalance_dates = _rebalance_dates(features["date"], backtest_config["rebalance_frequency"])
     first_date = _first_eligible_date(
         prices.index.min(),
@@ -100,18 +106,20 @@ def run_model_strategy(
     daily_returns: list[pd.Series] = []
     weight_rows: list[pd.Series] = []
     turnover_values: dict[pd.Timestamp, float] = {}
+    initial_turnover = 0.0
 
     for index, rebalance_date in enumerate(rebalance_dates):
         next_rebalance = rebalance_dates[index + 1] if index + 1 < len(rebalance_dates) else returns.index.max()
+        train_cutoff = rebalance_date - pd.tseries.offsets.BDay(forward_return_horizon)
         train = features[
-            (features["date"] < rebalance_date)
+            (features["date"] <= train_cutoff)
             & (features["date"] >= pd.Timestamp(backtest_config["train_start"]))
-        ]
+        ].sort_values(["date", "ticker"])
         current = features[features["date"] == rebalance_date]
         if train.empty or current.empty:
             continue
 
-        model = make_model(model_name, random_seed=random_seed)
+        model = make_model(model_name, random_seed=random_seed, target_column=target_column)
         model.fit(train)
         scores = model.predict_scores(current).reindex(tickers)
         volatility = current.set_index("ticker").get("volatility_60")
@@ -129,11 +137,15 @@ def run_model_strategy(
         daily_returns.append(period_returns)
         weight_row = weights.copy()
         weight_row.name = rebalance_date
+        is_initial_allocation = not weight_rows
         weight_rows.append(weight_row)
-        turnover_values[rebalance_date] = turnover
+        if is_initial_allocation:
+            initial_turnover = turnover
+        else:
+            turnover_values[rebalance_date] = turnover
         previous_weights = weights
 
-    return _build_result(name, daily_returns, weight_rows, turnover_values)
+    return _build_result(name, daily_returns, weight_rows, turnover_values, initial_turnover)
 
 
 def run_static_strategy(
@@ -153,14 +165,19 @@ def run_static_strategy(
         if ticker in weights.index:
             weights.loc[ticker] = weight
     strategy_returns = returns.loc[returns.index >= first_date].mul(weights, axis=1).sum(axis=1)
+    initial_turnover = compute_turnover(pd.Series(0.0, index=prices.columns), weights)
+    if not strategy_returns.empty:
+        initial_cost = backtest_config["transaction_cost_bps"] / 10000.0 * initial_turnover
+        strategy_returns.iloc[0] -= initial_cost
     weights_frame = pd.DataFrame([weights], index=[strategy_returns.index.min()]) if not strategy_returns.empty else pd.DataFrame()
-    turnover = pd.Series([compute_turnover(pd.Series(0.0, index=prices.columns), weights)], index=weights_frame.index)
+    turnover = pd.Series([0.0], index=weights_frame.index, name=name) if not weights_frame.empty else pd.Series(dtype=float, name=name)
     return BacktestResult(
         name=name,
         returns=strategy_returns.rename(name),
         equity=(1.0 + strategy_returns).cumprod().rename(name),
         weights=weights_frame,
         turnover=turnover.rename(name),
+        initial_turnover=initial_turnover,
     )
 
 
@@ -175,16 +192,26 @@ def run_equal_weight_strategy(prices: pd.DataFrame, backtest_config: dict) -> Ba
 
 
 def results_to_metrics(results: dict[str, BacktestResult]) -> pd.DataFrame:
+    aligned_returns = align_strategy_returns(results)
     rows = []
     for name, result in results.items():
         row = {"strategy": name}
-        row.update(summarize_returns(result.returns, result.turnover))
+        row.update(summarize_returns(aligned_returns[name], result.turnover, result.initial_turnover))
         rows.append(row)
     return pd.DataFrame(rows).set_index("strategy")
 
 
 def equity_curves(results: dict[str, BacktestResult]) -> pd.DataFrame:
-    return pd.concat({name: result.equity for name, result in results.items()}, axis=1)
+    aligned_returns = align_strategy_returns(results)
+    return (1.0 + aligned_returns).cumprod()
+
+
+def align_strategy_returns(results: dict[str, BacktestResult]) -> pd.DataFrame:
+    returns = pd.concat({name: result.returns for name, result in results.items()}, axis=1)
+    returns = returns.sort_index().dropna(how="any")
+    if returns.empty:
+        raise ValueError("No common evaluation period across strategies.")
+    return returns
 
 
 def weights_to_frame(results: dict[str, BacktestResult]) -> pd.DataFrame:
@@ -222,13 +249,21 @@ def _build_result(
     daily_returns: list[pd.Series],
     weight_rows: list[pd.Series],
     turnover_values: dict[pd.Timestamp, float],
+    initial_turnover: float = 0.0,
 ) -> BacktestResult:
     returns = pd.concat(daily_returns).sort_index() if daily_returns else pd.Series(dtype=float)
     returns = returns[~returns.index.duplicated(keep="first")].rename(name)
     weights = pd.DataFrame(weight_rows).sort_index() if weight_rows else pd.DataFrame()
     turnover = pd.Series(turnover_values, name=name).sort_index()
     equity = (1.0 + returns).cumprod().rename(name)
-    return BacktestResult(name=name, returns=returns, equity=equity, weights=weights, turnover=turnover)
+    return BacktestResult(
+        name=name,
+        returns=returns,
+        equity=equity,
+        weights=weights,
+        turnover=turnover,
+        initial_turnover=initial_turnover,
+    )
 
 
 def _rebalance_dates(dates: pd.Series, frequency: str) -> list[pd.Timestamp]:

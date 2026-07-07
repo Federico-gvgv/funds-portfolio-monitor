@@ -60,7 +60,7 @@ class SklearnReturnModel:
         return pd.Series(predictions, index=current["ticker"], name="score")
 
 
-def make_ridge_model(random_seed: int = 42) -> SklearnReturnModel:
+def make_ridge_model(random_seed: int = 42, target_column: str = "forward_return_21") -> SklearnReturnModel:
     del random_seed
     estimator = Pipeline(
         steps=[
@@ -68,10 +68,13 @@ def make_ridge_model(random_seed: int = 42) -> SklearnReturnModel:
             ("ridge", Ridge(alpha=1.0)),
         ]
     )
-    return SklearnReturnModel(estimator)
+    return SklearnReturnModel(estimator, target_column=target_column)
 
 
-def make_gradient_boosting_model(random_seed: int = 42) -> SklearnReturnModel:
+def make_gradient_boosting_model(
+    random_seed: int = 42,
+    target_column: str = "forward_return_21",
+) -> SklearnReturnModel:
     estimator = HistGradientBoostingRegressor(
         max_iter=100,
         learning_rate=0.05,
@@ -79,16 +82,16 @@ def make_gradient_boosting_model(random_seed: int = 42) -> SklearnReturnModel:
         l2_regularization=0.01,
         random_state=random_seed,
     )
-    return SklearnReturnModel(estimator)
+    return SklearnReturnModel(estimator, target_column=target_column)
 
 
-def make_model(name: str, random_seed: int = 42):
+def make_model(name: str, random_seed: int = 42, target_column: str = "forward_return_21"):
     if name == "momentum":
         return MomentumScoringModel()
     if name == "vol_adjusted_momentum":
         return VolatilityAdjustedMomentumModel()
     if name == "ridge":
-        return make_ridge_model(random_seed)
+        return make_ridge_model(random_seed, target_column)
     if name == "gradient_boosting":
-        return make_gradient_boosting_model(random_seed)
+        return make_gradient_boosting_model(random_seed, target_column)
     raise ValueError(f"Unknown model: {name}")

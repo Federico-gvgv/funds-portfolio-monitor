@@ -77,7 +77,11 @@ def hit_rate(returns: pd.Series) -> float:
     return float((returns > 0.0).mean())
 
 
-def summarize_returns(returns: pd.Series, turnover: pd.Series | None = None) -> dict[str, float]:
+def summarize_returns(
+    returns: pd.Series,
+    turnover: pd.Series | None = None,
+    initial_turnover: float = 0.0,
+) -> dict[str, float]:
     returns = _clean_returns(returns)
     final_equity = float((1.0 + returns).prod()) if not returns.empty else 1.0
     average_turnover = 0.0 if turnover is None or turnover.empty else float(turnover.mean())
@@ -91,6 +95,7 @@ def summarize_returns(returns: pd.Series, turnover: pd.Series | None = None) -> 
         "calmar_ratio": calmar_ratio(returns),
         "hit_rate": hit_rate(returns),
         "average_turnover": average_turnover,
+        "initial_turnover": float(initial_turnover),
         "final_equity": final_equity,
     }
 

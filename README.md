@@ -8,6 +8,8 @@ This project treats ETF allocation as a walk-forward portfolio construction prob
 
 The workflow builds trailing momentum, volatility, trend, and drawdown features, then ranks or predicts next 21-trading-day returns across the ETF universe. Portfolios are rebalanced monthly, evaluated after transaction costs, and compared against transparent allocation baselines.
 
+Generated results record both the actual price-data period and the aligned evaluation period used for metrics. The current generated artifacts use price data from `2020-12-07` to `2025-12-05`, with reported metrics aligned on `2024-02-01` to `2025-11-28`. The current bundled `data/raw/prices.csv` starts after the configured `2010-01-01` start date, so the run script warns clearly and attempts a `yfinance` refresh before continuing with local data if refresh is unavailable.
+
 An archived version of the earlier experimental workflow is kept in `legacy/lstm_price_forecaster/` for reference.
 
 ## Universe
@@ -30,10 +32,10 @@ Optional single-name equities such as `AAPL` and `MSFT` can be added through `co
 2. Compute daily returns and leakage-safe trailing features.
 3. Build a next 21-trading-day forward-return target for model training.
 4. Rebalance monthly after a minimum training history.
-5. Train supervised models only on rows before each rebalance date.
+5. Train supervised models only on rows whose forward-return labels would have been observable by each rebalance date.
 6. Select long-only top-k portfolios and apply weights to the next holding period.
 7. Subtract transaction costs as basis points times one-way turnover.
-8. Evaluate portfolio-level risk and return metrics.
+8. Align all strategy daily returns to a common evaluation index before computing portfolio-level risk and return metrics.
 
 ## Strategies
 
@@ -47,6 +49,8 @@ Optional single-name equities such as `AAPL` and `MSFT` can be added through `co
 ## Metrics
 
 The report includes cumulative return, CAGR, annualized volatility, Sharpe ratio, Sortino ratio, maximum drawdown, Calmar ratio, hit rate, average turnover, and final equity.
+
+`average_turnover` is recurring rebalance turnover. Initial allocation turnover is reported separately so static buy-and-hold or equal-weight baselines are not shown as having recurring turnover.
 
 ## Setup
 
@@ -90,6 +94,7 @@ The backtest first looks for `data/raw/prices.csv`. If it is missing, it can ass
 - No borrow, leverage, or shorting.
 - No macroeconomic or fundamental features.
 - Historical backtests are not proof of future performance.
+- Results depend on the available data period and should be interpreted as research, not investment advice.
 - `yfinance` data may differ from institutional-quality sources.
 - Monthly rebalancing and close-to-close execution assumptions are simplified.
 
